@@ -1,0 +1,1302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA65CBFA2A2732AAB24EDD2834480AB8 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8123EE7829309D3139516A03A74641D9 /* PBXTargetDependency */,
+			);
+			name = "Mapbox-iOS-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0389C8DF445CE1EF43AC22E36DFD27B5 /* DropdownAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E52EE17AB10C4511342F834BB522A4 /* DropdownAnimator.swift */; };
+		06E78BA520129E4E0B1331C61E91646F /* AssetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2017977291E2E97BC3254B5B1305310 /* AssetCollectionViewCell.swift */; };
+		09A2A6AB5EC2EA6DD1ED8503A89092A5 /* MMEEventLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 383510D87AAA926C0FF2B21400848A22 /* MMEEventLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A714A13CFE6E89F7364E9FA3C154970 /* MMEEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EAB7A7E0A9297CA536D7233683FB1D /* MMEEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DE6E979A538721A8150B6053880086A /* MapboxMobileEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0D2D8C7E83F5E52AACE4848C5051E /* MapboxMobileEvents-dummy.m */; };
+		0F350A553D83B0BD0240B15A808B761A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC6BFAECB20FEB23C7EB26CFF69B242 /* PreviewViewController.swift */; };
+		0F4CF5982D335F3E01210E865BC20D6F /* NSUserDefaults+MMEConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F89D373FCCF71D7A94B1F5EB0B138D6D /* NSUserDefaults+MMEConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE87ABF12AA3985C8CF8F6D10CB1670 /* NSUserDefaults+MMEConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DE42162BAFA70A4CD1C1A93D5BD85 /* NSUserDefaults+MMEConfiguration.m */; };
+		18811357EAEB0D08EED912F651E5D1C1 /* MMEDependencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9C8ED29D68B4322ECD76871791BC5C /* MMEDependencyManager.m */; };
+		18D3D7C06E6F19BE0D383AC5CF7E3974 /* ImageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CA6762EE65B25B9246CEC37C393AD /* ImageViewLayout.swift */; };
+		1904B5C9607D3DD082A4B5EC35AFFAD7 /* LivePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75B969052E31349DB61ECDFB082C2D /* LivePreviewViewController.swift */; };
+		1D11B93C2F853AC2104A4D459918E3D6 /* PreviewTitleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1C27B439D223A385BBF9FEA23E95B /* PreviewTitleBuilder.swift */; };
+		1DBEBF163FDA9923BB62CB818D323042 /* ImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7929E43A7E018A709BA327E61D7A44C5 /* ImagePickerControllerDelegate.swift */; };
+		1E39A3C884BC75EB1D3E381C2DEEFB2C /* MMEDispatchManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B838EEC0E786101FD209B0C681BE321 /* MMEDispatchManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2395790DA1861CBF12D5D51D6AF432DF /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E6BF2E2663BB0C8D14AB017D8AF712 /* ImagePickerController.swift */; };
+		25185607AB9BC9D8D410C15D84535DEF /* MMEAPIClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 466B7A56F70BF73A6973D77A8F59CD94 /* MMEAPIClient_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25547179F1ED9056A8CDB3CD5BCEFFAE /* NSProcessInfo+SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B963FB739DDB9CFACF79B6AFCBE1FD /* NSProcessInfo+SystemInfo.m */; };
+		25FA3F467C8A903E8CE6CBD3CDB19EAE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1753EE653342C68261F4EDDA314DE8 /* ImageView.swift */; };
+		26E8BC586271530D1DB5927CFC4D1105 /* MMEDispatchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B41706ED5CA645AB25CA91E355402E /* MMEDispatchManager.m */; };
+		27CD98A0330C47CDE33835B8834F4610 /* CLLocation+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B38ED3201D5F1F77450517E3103F2 /* CLLocation+MMEMobileEvents.m */; };
+		2816A18EC6DFED1EBC3CCF74AC387AC1 /* MMEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 62177FF531CC6BCD552EC49C26840CA1 /* MMEConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CC7F1C736576E4653CEE18E531F00E0 /* MMELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6160578D2DB24978F34D031918405C8 /* MMELocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D60DC94AFF25B195FF9E815702BF0E8 /* MMEUIApplicationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 082D29F295DD9F7467FCE8BC563DF9FC /* MMEUIApplicationWrapper.m */; };
+		3227BE7F38EB7E6550374C687D73AAB7 /* MMECommonEventData.h in Headers */ = {isa = PBXBuildFile; fileRef = 826E754E5200D81F7DC13D0C0DA02333 /* MMECommonEventData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		352485EF2E292FB7746DDEA56A2F465C /* NSBundle+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = D7256BBA2E36D9EFB949B5678A8E45A9 /* NSBundle+MMEMobileEvents.m */; };
+		39E5C6E05823AF6BCBC68A06E3EEA630 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96E28E59084907DD380D4E9CFC6182 /* VideoCollectionViewCell.swift */; };
+		3B35101E468A9919AE0D2E716E099DA6 /* MMEEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB44FE15C726F9A0CAA6D9AA5A2FC05 /* MMEEvent.m */; };
+		3C43CF415589F091A5E13493E3B5495E /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F8237714A658848566005AF6820A0 /* CameraPreviewView.swift */; };
+		3DA0D431798F66969EA4F5757BAC3E62 /* MMEAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA491601DBC4B3D628F3B91C8283309 /* MMEAPIClient.m */; };
+		3E7424D09D520A085D03AE1EF25CA97F /* MMEUniqueIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6C71DC5B40393B634C721992B30B01 /* MMEUniqueIdentifier.m */; };
+		409C7B89FAFB091379A7A81051702EAF /* NSData+MMEGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7CCFA2737B9FC526BD8BC0F8304895 /* NSData+MMEGZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40AD85A3BAC86304C7CC3691DF304F82 /* NSProcessInfo+SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4335618739B27137AF2DA389F4E697C7 /* NSProcessInfo+SystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439AF6494D9C76F3CEAC3C0E2AD62D84 /* Pods-SportSpot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C44029FE82BF50D399AF870CEB165D9A /* Pods-SportSpot-dummy.m */; };
+		460020C3B8096313EB3FC045289B22A2 /* CGSize+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88AE75FF4275C9FB8112DE51997B829 /* CGSize+Scale.swift */; };
+		461EC74BFED1D94AEB1D9B433FE6ED7D /* MMECommonEventData.m in Sources */ = {isa = PBXBuildFile; fileRef = 405206591E8C442B164BB7F9C9122A0F /* MMECommonEventData.m */; };
+		4DD50AB8757B9F726213492DEFD682A4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A20AFAF3AED67E60EA5DA0E17837E /* CameraViewController.swift */; };
+		5092E967B4A2A23855D109A85F35709B /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37ADA52D55C3732375799EFA0197912 /* AlbumCell.swift */; };
+		5268418A803F4C80A7F5080177E485D0 /* AssetsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A411F9276192ED3AF33BE5961B2F0C4 /* AssetsCollectionViewDataSource.swift */; };
+		54C5C02623C6F32BACC2A5B1C76ECAE5 /* MapboxMobileEvents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6EB215DCEB581FFBF16023D1017806 /* MapboxMobileEvents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5553B77F479CDB7AECF6CCB92493BD88 /* MMEDependencyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01000A5185B44B55B634397773ED30E9 /* MMEDependencyManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DADE2DD43F974B6BC4D4CF17112A75 /* MMEMetricsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D825C79B054547851E3DECE16A54B4F1 /* MMEMetricsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3A4E3C48862DD44BD36B5FDBD3832F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408444246470C00CCFB898FBE2981DE /* PlayerView.swift */; };
+		5CA0EFD4CF1ED5DDD6EE4E1264FA72BB /* NSString+MMEVersions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B71240B6DE21FA6545C9DA3FBF5DAA3 /* NSString+MMEVersions.m */; };
+		607DA9DA18D56387A0A5CA86DC7E0E2B /* MMECertPin.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB563A15627CE72F3E7FDA5E7BF8403 /* MMECertPin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6172CD0EBDBA2ADC93CC9CA88E053522 /* ImagePickerController+PresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0528BB37B9F77A8FF9D4E729286DF350 /* ImagePickerController+PresentationDelegate.swift */; };
+		636867B914DA9E6D1DAE6D9C81ED53ED /* CameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D5CE94AA0FDA05AFEE73EABA0024A /* CameraCollectionViewCell.swift */; };
+		68272D20BB959B409B335794A3B88C6E /* MapboxMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC039E161676CB821719A5E55BD297 /* MapboxMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69A70D8A51FE5366AAAE02B1A1F69E65 /* MMEMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A919F977F68E52966F44E399004F1FAB /* MMEMetrics.m */; };
+		6B0C16C0A66A8A47FC2B416BF88FB8CC /* CLLocationManager+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FDC62941186DE6D9A9A5E0A3B0258B /* CLLocationManager+MMEMobileEvents.m */; };
+		6B3543AEEB355276934219326E6CE1F6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2607567BF2B31002BC301119F83F34C5 /* Settings.swift */; };
+		6CCBB1777BAC849C02DFCA4CE250E80C /* ImagePickerController+Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BB7C8D157E276F5E85C179E3D26FD /* ImagePickerController+Albums.swift */; };
+		70DB55EB98008B4D4D2D04E8F4828549 /* ImagePickerController+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A86BE02DA7D7995AB0E66247A490391 /* ImagePickerController+Assets.swift */; };
+		71024494B2EDC8440D426DED1994CEA2 /* MMEAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DE68B638113ECB89D622496B579E8A /* MMEAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715E01B2A1F51D468DD1B11F431ACD52 /* MMETimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADACA8A422F002B05EA89918B24DC194 /* MMETimerManager.m */; };
+		74B964B913A103C8C78ABE037871712D /* MMEEventLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0D19DABB02D69CB4612B8D1105EF8 /* MMEEventLogger.m */; };
+		7893272E6071BD400465339194A909AC /* ZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C755101FD58B9387D821BA14C2DD294 /* ZoomAnimator.swift */; };
+		7DCF3B99BDB96C0E202324D6A6D5AAFC /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98497D399538A84F58BD52B89F20A6 /* AlbumsViewController.swift */; };
+		7F8740F974D86C8E141C31ED32C4ED81 /* MMEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BE962EA7A76914AB46C400EB5F6C66 /* MMEConstants.m */; };
+		824BFFE3DCC664A715B3EF680CB62DEB /* CLLocationManager+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0683BC00D37A882B3846375F09F2ACB8 /* CLLocationManager+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B6C798EEA118BADB3CFDFAF232AE93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8017CD3DD67036B82DE3355DDA10C /* Foundation.framework */; };
+		84E3B556AB38DF72D36CBB5980BA6E4D /* MMELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87818B39A0CAAB56CD7BC2DFF1100FAA /* MMELocationManager.m */; };
+		8802FF6B85453D21D7C1609EE47D1AC2 /* MMEMetrics.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2D60C28571EB154866D99DFA4185E9 /* MMEMetrics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B0C2688B0745C6E63735D486C948F96 /* MMEReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98C60304ACBE4B7AAE822E0652853E /* MMEReachability.m */; };
+		8B1ED7D8A9DEF59D198C5B71EC3219C1 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6C522ADC6880AEF5110CBBA4698094 /* GradientView.swift */; };
+		8C78F5D2FF6F8BC35389F3344E6F3243 /* AssetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98725B1540C6D31ACABF318A861CEAA8 /* AssetStore.swift */; };
+		8DDB85ECFF0F59FB877A6E96CDB9FF98 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB2BC72039CA947D62ECF40D8033458 /* SelectionView.swift */; };
+		90488819FB3833697641A0127CF63279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8017CD3DD67036B82DE3355DDA10C /* Foundation.framework */; };
+		9193DF13DF0239B173D4425A1DED8F2D /* ImagePickerController+ButtonActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F62C8A997D8CE48433AFCC2B539117 /* ImagePickerController+ButtonActions.swift */; };
+		92F76D46731799F99DEC901DBB25768C /* MMEReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8CCD9DB9C52EEDE5DE644021CCE499 /* MMEReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BC9661E92496ECFF109EBD6811CDB6 /* NSUserDefaults+MMEConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D3ED9E33865DB803E3813E423DF8D5 /* NSUserDefaults+MMEConfiguration_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947212F1D3B03126BA1848AC636D3574 /* PreviewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DFAF792A2CA35C0DD5FE48222FEA5 /* PreviewBuilder.swift */; };
+		9606CBF56A8102A1173DAD2256E511F2 /* MMEDate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE768F3BFE24DD471F9B4725733C45E9 /* MMEDate.m */; };
+		98C55AA981DC0B9D18AF3925D4F6D9BA /* MMETimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CE74BFFC093B1A5B14571545BAF622C2 /* MMETimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99ECB463D6445BA94C11F11373E55957 /* CLLocation+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D28FE93681B2A80BBB4B6862F7B5AB4 /* CLLocation+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B303918B163BE3E7CE0CD78C0249B45 /* NSBundle+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AEBEC332A0534E98911B7E8821D80A /* NSBundle+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BADDEA0DC42F6CF7260914800C08417 /* UIKit+MMEMobileEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B53B0D31D392647983172CB158DB4A /* UIKit+MMEMobileEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1521EC9C2864F6E63271718341EE1E6 /* MMEEventsManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E50858E3F0C2AB9B2398F5E4F045F9A5 /* MMEEventsManager_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2749C1E69599848C1E0A08CAFEF9919 /* ZoomInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC6DF6D518679C8F78E851F70232F2 /* ZoomInteractionController.swift */; };
+		A4A6CF46A58B5D1D18B4CDEE3304C607 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D3CDC39D98E22F2A543100660462A0 /* Photos.framework */; };
+		A5B682D658081E190CDC9774CDA5E040 /* ZoomTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0657B7D298CE87699762CB64169259 /* ZoomTransitionDelegate.swift */; };
+		AA134AB205B3AAFB4D1C00671A482783 /* MMENSURLSessionWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C75DF8E51075845BF0F78C0A2F5C995E /* MMENSURLSessionWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB7B444D7B843BAD7E6DA3B88E4E0623 /* MMECategoryLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E629C0E37A3FE1D4C6CAB29597E73CC6 /* MMECategoryLoader.m */; };
+		AF8625912AD83A14F574F8656F49A1EA /* MMECategoryLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BBD9668C23FD07E437996B59ECF209 /* MMECategoryLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA93EFCB1F33342EBD25C65AB8D262E6 /* MMEEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC5C8F60B18ADC62604D19EB57B1766 /* MMEEventsManager.m */; };
+		BD809D43150CFC6AF5B9B70582EF0A47 /* CheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81EC9A95C77DD53F91BAC921EA94781 /* CheckmarkView.swift */; };
+		BDA3204F090D4623441518A4DD4EDC8A /* MMETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E61A4C2B8D45B9C37BF926855E2A22 /* MMETypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FB50C73255277E12C69C82584A7041 /* MMEUniqueIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 864C4271F3943F29EF257593DC596B59 /* MMEUniqueIdentifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB564E41DC876F6874B03B95FF0F9605 /* BSImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51238DD322D089F1C6E892253E0AF4C6 /* BSImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC265EFFBE1C3D567EC05213BD9F369B /* NSString+MMEVersions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F202EB33B732044265BF21E9E87F490 /* NSString+MMEVersions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA13484464682D647A49AADC50E86E1 /* UIColor+BSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F844791087E7B2B7C1C0A9F8EAB71F /* UIColor+BSImagePicker.swift */; };
+		CFA5EA02486D0A5E35C507D71454DB9E /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0561E0588C27A4FCF379AF59A7BE0329 /* NumberView.swift */; };
+		D0EFB59094E3C703BE110D37D55D2A73 /* UIKit+MMEMobileEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B2D00FC8AE1431FF2E4C7DFA4C72F /* UIKit+MMEMobileEvents.m */; };
+		D55C745515083951A9EE7B7A639E8FD4 /* MMENSURLSessionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E06C5D5E0B824D06982AA3DA0BE662D4 /* MMENSURLSessionWrapper.m */; };
+		D97712494CA3DD1B5A2A9186C03E4B44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06467B2726119E36A2570D3EA159D619 /* UIKit.framework */; };
+		DA11E0DA5335A65F9FBD7EB6ABC25372 /* BSImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2887E3F464B5DE50C52C652249D93CB6 /* BSImagePicker-dummy.m */; };
+		DD68C19EC85FEA0835000C76215F489F /* MMEMetricsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2330E5BCCDBDEE8C3A93A8727F3ED6D /* MMEMetricsManager.m */; };
+		DE35421D78A68CC4CCED09C161A90854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E8017CD3DD67036B82DE3355DDA10C /* Foundation.framework */; };
+		DFF29E6AE791A8D1AEFF043994CBE7DB /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84469EC67EC94F0D49184D4EF2553291 /* AssetsViewController.swift */; };
+		E2AB248C49A29C277F308C63E4EF572B /* MMEDate.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DF0AAC8DF21EF4C3B528D2BE56D0C9 /* MMEDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B3AA427D67CDAA18524D6256C9B504 /* NSData+MMEGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFF68374792C8719ADFBADDB8BB8D32 /* NSData+MMEGZIP.m */; };
+		E43D5F92748DB402806932A6EB2ECAA2 /* MMECertPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3745342A2B091204E68B7139A21622FE /* MMECertPin.m */; };
+		E800F651E3B306D888200FAE2C809A46 /* DropdownTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017CFA53326C3466460E053721C7F6CF /* DropdownTransitionDelegate.swift */; };
+		EA1A60684ABAF557379F2F9A09F05125 /* AlbumsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746F69AAA34EBC46535249931F3BFAE9 /* AlbumsTableViewDataSource.swift */; };
+		EBA66521FF71CDF72172630B438321A0 /* MMEUIApplicationWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7BAA98B0134719F34C45567D7E39BA /* MMEUIApplicationWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED758DF878EC03369DE01C3FBA86B8BB /* DropdownPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE426523C6294E4B71EFD08CE8EA1181 /* DropdownPresentationController.swift */; };
+		ED95E1911EB92FB818D6632B7C708602 /* ImagePickerController+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60E1A3AE7D1865EAC70EB578E8A413 /* ImagePickerController+Closure.swift */; };
+		EE51B6001BBCF099CB10134D2C281AF7 /* MMEEventsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9251FDC0E6A97420E144E2EF5EF4ACFC /* MMEEventsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F814B20EDD9B1C017993ABB11B2EF263 /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C5644A6E9AF12496C8916EC5D43D6 /* VideoPreviewViewController.swift */; };
+		FAE8F724FC1C2414695FABAC5BF4B711 /* Pods-SportSpot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 296CCD324D895A277089A85831D34C36 /* Pods-SportSpot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA11690499ECCDFA36914DB2647071F /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4AA422E4F2E8014D454061C3018E3F /* ArrowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3277C1D97AC3B9FF36133120A560D06D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377E69F20375EB612410D6BD87B4AF98;
+			remoteInfo = BSImagePicker;
+		};
+		4916CEB4FEAF5A919E8C86DF19BC194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6746AB6F4D992402B59D1651512EA19E;
+			remoteInfo = "Mapbox-iOS-SDK";
+		};
+		76B66C88AA3129275BBBA1FDE1EE6E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
+			remoteInfo = MapboxMobileEvents;
+		};
+		AB38CF05C109F9247AB2166D36C71EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20E041B920E9DD7BA087321915E730F;
+			remoteInfo = MapboxMobileEvents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01000A5185B44B55B634397773ED30E9 /* MMEDependencyManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDependencyManager.h; path = Sources/MapboxMobileEvents/MMEDependencyManager.h; sourceTree = "<group>"; };
+		017CFA53326C3466460E053721C7F6CF /* DropdownTransitionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownTransitionDelegate.swift; path = Sources/Presentation/Dropdown/DropdownTransitionDelegate.swift; sourceTree = "<group>"; };
+		0528BB37B9F77A8FF9D4E729286DF350 /* ImagePickerController+PresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImagePickerController+PresentationDelegate.swift"; path = "Sources/Controller/ImagePickerController+PresentationDelegate.swift"; sourceTree = "<group>"; };
+		0561E0588C27A4FCF379AF59A7BE0329 /* NumberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberView.swift; path = Sources/Scene/Assets/NumberView.swift; sourceTree = "<group>"; };
+		06467B2726119E36A2570D3EA159D619 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0683BC00D37A882B3846375F09F2ACB8 /* CLLocationManager+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/CLLocationManager+MMEMobileEvents.h"; sourceTree = "<group>"; };
+		082D29F295DD9F7467FCE8BC563DF9FC /* MMEUIApplicationWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEUIApplicationWrapper.m; path = Sources/MapboxMobileEvents/MMEUIApplicationWrapper.m; sourceTree = "<group>"; };
+		0A98C60304ACBE4B7AAE822E0652853E /* MMEReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEReachability.m; path = Sources/MapboxMobileEvents/MMEReachability.m; sourceTree = "<group>"; };
+		0AB44FE15C726F9A0CAA6D9AA5A2FC05 /* MMEEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEEvent.m; path = Sources/MapboxMobileEvents/MMEEvent.m; sourceTree = "<group>"; };
+		0B838EEC0E786101FD209B0C681BE321 /* MMEDispatchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDispatchManager.h; path = Sources/MapboxMobileEvents/MMEDispatchManager.h; sourceTree = "<group>"; };
+		0C755101FD58B9387D821BA14C2DD294 /* ZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomAnimator.swift; path = Sources/Presentation/Zoom/ZoomAnimator.swift; sourceTree = "<group>"; };
+		0C75B969052E31349DB61ECDFB082C2D /* LivePreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LivePreviewViewController.swift; path = Sources/Scene/Preview/LivePreviewViewController.swift; sourceTree = "<group>"; };
+		0D91250C30D81AA2A8D10B905A9C0DCA /* Pods_SportSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SportSpot.framework; path = "Pods-SportSpot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6C71DC5B40393B634C721992B30B01 /* MMEUniqueIdentifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEUniqueIdentifier.m; path = Sources/MapboxMobileEvents/MMEUniqueIdentifier.m; sourceTree = "<group>"; };
+		1A86BE02DA7D7995AB0E66247A490391 /* ImagePickerController+Assets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImagePickerController+Assets.swift"; path = "Sources/Controller/ImagePickerController+Assets.swift"; sourceTree = "<group>"; };
+		1B71240B6DE21FA6545C9DA3FBF5DAA3 /* NSString+MMEVersions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MMEVersions.m"; path = "Sources/MapboxMobileEvents/NSString+MMEVersions.m"; sourceTree = "<group>"; };
+		1C6C522ADC6880AEF5110CBBA4698094 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = Sources/Scene/Assets/GradientView.swift; sourceTree = "<group>"; };
+		1F08AE4B81A4E4ECE65672A185E38F78 /* BSImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSImagePicker.framework; path = BSImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		200A20AFAF3AED67E60EA5DA0E17837E /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Scene/Camera/CameraViewController.swift; sourceTree = "<group>"; };
+		2408444246470C00CCFB898FBE2981DE /* PlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerView.swift; path = Sources/Scene/Preview/PlayerView.swift; sourceTree = "<group>"; };
+		2607567BF2B31002BC301119F83F34C5 /* Settings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Settings.swift; path = Sources/Model/Settings.swift; sourceTree = "<group>"; };
+		2887E3F464B5DE50C52C652249D93CB6 /* BSImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSImagePicker-dummy.m"; sourceTree = "<group>"; };
+		296CCD324D895A277089A85831D34C36 /* Pods-SportSpot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SportSpot-umbrella.h"; sourceTree = "<group>"; };
+		2A6DE42162BAFA70A4CD1C1A93D5BD85 /* NSUserDefaults+MMEConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+MMEConfiguration.m"; path = "Sources/MapboxMobileEvents/NSUserDefaults+MMEConfiguration.m"; sourceTree = "<group>"; };
+		2BB2BC72039CA947D62ECF40D8033458 /* SelectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectionView.swift; path = Sources/Scene/Assets/SelectionView.swift; sourceTree = "<group>"; };
+		2BFF68374792C8719ADFBADDB8BB8D32 /* NSData+MMEGZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MMEGZIP.m"; path = "Sources/MapboxMobileEvents/NSData+MMEGZIP.m"; sourceTree = "<group>"; };
+		2CDC039E161676CB821719A5E55BD297 /* MapboxMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MapboxMobileEvents.h; path = Sources/MapboxMobileEvents/include/MapboxMobileEvents.h; sourceTree = "<group>"; };
+		2D7CCFA2737B9FC526BD8BC0F8304895 /* NSData+MMEGZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MMEGZIP.h"; path = "Sources/MapboxMobileEvents/NSData+MMEGZIP.h"; sourceTree = "<group>"; };
+		33AEBEC332A0534E98911B7E8821D80A /* NSBundle+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/NSBundle+MMEMobileEvents.h"; sourceTree = "<group>"; };
+		36E8017CD3DD67036B82DE3355DDA10C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3745342A2B091204E68B7139A21622FE /* MMECertPin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMECertPin.m; path = Sources/MapboxMobileEvents/MMECertPin.m; sourceTree = "<group>"; };
+		383510D87AAA926C0FF2B21400848A22 /* MMEEventLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEventLogger.h; path = Sources/MapboxMobileEvents/MMEEventLogger.h; sourceTree = "<group>"; };
+		3A3D5CE94AA0FDA05AFEE73EABA0024A /* CameraCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraCollectionViewCell.swift; path = Sources/Scene/Assets/CameraCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B5F8237714A658848566005AF6820A0 /* CameraPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraPreviewView.swift; path = Sources/Scene/Camera/CameraPreviewView.swift; sourceTree = "<group>"; };
+		3D28FE93681B2A80BBB4B6862F7B5AB4 /* CLLocation+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/CLLocation+MMEMobileEvents.h"; sourceTree = "<group>"; };
+		3D5DFAF792A2CA35C0DD5FE48222FEA5 /* PreviewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewBuilder.swift; path = Sources/Scene/Preview/PreviewBuilder.swift; sourceTree = "<group>"; };
+		3E0657B7D298CE87699762CB64169259 /* ZoomTransitionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomTransitionDelegate.swift; path = Sources/Presentation/Zoom/ZoomTransitionDelegate.swift; sourceTree = "<group>"; };
+		403BB7C8D157E276F5E85C179E3D26FD /* ImagePickerController+Albums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImagePickerController+Albums.swift"; path = "Sources/Controller/ImagePickerController+Albums.swift"; sourceTree = "<group>"; };
+		405206591E8C442B164BB7F9C9122A0F /* MMECommonEventData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMECommonEventData.m; path = Sources/MapboxMobileEvents/MMECommonEventData.m; sourceTree = "<group>"; };
+		40D1C27B439D223A385BBF9FEA23E95B /* PreviewTitleBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewTitleBuilder.swift; path = Sources/Scene/Preview/PreviewTitleBuilder.swift; sourceTree = "<group>"; };
+		40D3CDC39D98E22F2A543100660462A0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		4335618739B27137AF2DA389F4E697C7 /* NSProcessInfo+SystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSProcessInfo+SystemInfo.h"; path = "Sources/MapboxMobileEvents/NSProcessInfo+SystemInfo.h"; sourceTree = "<group>"; };
+		454A68C615C97AD312F4B3D669BF115F /* Mapbox-iOS-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		466B7A56F70BF73A6973D77A8F59CD94 /* MMEAPIClient_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEAPIClient_Private.h; path = Sources/MapboxMobileEvents/MMEAPIClient_Private.h; sourceTree = "<group>"; };
+		4A411F9276192ED3AF33BE5961B2F0C4 /* AssetsCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsCollectionViewDataSource.swift; path = Sources/Scene/Assets/AssetsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		4DE0D2D8C7E83F5E52AACE4848C5051E /* MapboxMobileEvents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapboxMobileEvents-dummy.m"; sourceTree = "<group>"; };
+		51238DD322D089F1C6E892253E0AF4C6 /* BSImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		56C2ABD6D8CB1DB77A6D2AD2939467BD /* BSImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImagePicker.debug.xcconfig; sourceTree = "<group>"; };
+		5D4AA422E4F2E8014D454061C3018E3F /* ArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowView.swift; path = Sources/View/ArrowView.swift; sourceTree = "<group>"; };
+		5D98497D399538A84F58BD52B89F20A6 /* AlbumsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumsViewController.swift; path = Sources/Scene/Albums/AlbumsViewController.swift; sourceTree = "<group>"; };
+		62177FF531CC6BCD552EC49C26840CA1 /* MMEConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEConstants.h; path = Sources/MapboxMobileEvents/MMEConstants.h; sourceTree = "<group>"; };
+		66249EC168EE66919630D45A8EB5C665 /* Pods-SportSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SportSpot.release.xcconfig"; sourceTree = "<group>"; };
+		666B38ED3201D5F1F77450517E3103F2 /* CLLocation+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+MMEMobileEvents.m"; path = "Sources/MapboxMobileEvents/CLLocation+MMEMobileEvents.m"; sourceTree = "<group>"; };
+		67B41706ED5CA645AB25CA91E355402E /* MMEDispatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDispatchManager.m; path = Sources/MapboxMobileEvents/MMEDispatchManager.m; sourceTree = "<group>"; };
+		67D3CCD616E2BB7D7A30815E3FF305B2 /* MapboxMobileEvents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxMobileEvents-prefix.pch"; sourceTree = "<group>"; };
+		6D53B348431331DF6949B0DEDF65C146 /* Pods-SportSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SportSpot.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC5C8F60B18ADC62604D19EB57B1766 /* MMEEventsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEEventsManager.m; path = Sources/MapboxMobileEvents/MMEEventsManager.m; sourceTree = "<group>"; };
+		714540993CDAC9030EEAFFB7A001103F /* Mapbox-iOS-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mapbox-iOS-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		728D5701EF02088E6C41842173E5FE89 /* BSImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSImagePicker-Info.plist"; sourceTree = "<group>"; };
+		73BBD9668C23FD07E437996B59ECF209 /* MMECategoryLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECategoryLoader.h; path = Sources/MapboxMobileEvents/MMECategoryLoader.h; sourceTree = "<group>"; };
+		746F69AAA34EBC46535249931F3BFAE9 /* AlbumsTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumsTableViewDataSource.swift; path = Sources/Scene/Albums/AlbumsTableViewDataSource.swift; sourceTree = "<group>"; };
+		75D3ED9E33865DB803E3813E423DF8D5 /* NSUserDefaults+MMEConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+MMEConfiguration_Private.h"; path = "Sources/MapboxMobileEvents/NSUserDefaults+MMEConfiguration_Private.h"; sourceTree = "<group>"; };
+		7929E43A7E018A709BA327E61D7A44C5 /* ImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerControllerDelegate.swift; path = Sources/Controller/ImagePickerControllerDelegate.swift; sourceTree = "<group>"; };
+		7C60E1A3AE7D1865EAC70EB578E8A413 /* ImagePickerController+Closure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImagePickerController+Closure.swift"; path = "Sources/Controller/ImagePickerController+Closure.swift"; sourceTree = "<group>"; };
+		7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MapboxMobileEvents.framework; path = MapboxMobileEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		826E754E5200D81F7DC13D0C0DA02333 /* MMECommonEventData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECommonEventData.h; path = Sources/MapboxMobileEvents/MMECommonEventData.h; sourceTree = "<group>"; };
+		82D5D0703FA94D5346D790389D76D5F1 /* MapboxMobileEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxMobileEvents.debug.xcconfig; sourceTree = "<group>"; };
+		83D3A0B2E794429452B240BD5A80B9B5 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = dynamic/Mapbox.framework; sourceTree = "<group>"; };
+		84469EC67EC94F0D49184D4EF2553291 /* AssetsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetsViewController.swift; path = Sources/Scene/Assets/AssetsViewController.swift; sourceTree = "<group>"; };
+		864C4271F3943F29EF257593DC596B59 /* MMEUniqueIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEUniqueIdentifier.h; path = Sources/MapboxMobileEvents/MMEUniqueIdentifier.h; sourceTree = "<group>"; };
+		87818B39A0CAAB56CD7BC2DFF1100FAA /* MMELocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMELocationManager.m; path = Sources/MapboxMobileEvents/MMELocationManager.m; sourceTree = "<group>"; };
+		88852CE8D96E2C48914628FAC473D2B7 /* Pods-SportSpot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SportSpot-acknowledgements.plist"; sourceTree = "<group>"; };
+		88E6BF2E2663BB0C8D14AB017D8AF712 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Sources/Controller/ImagePickerController.swift; sourceTree = "<group>"; };
+		88FDC62941186DE6D9A9A5E0A3B0258B /* CLLocationManager+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+MMEMobileEvents.m"; path = "Sources/MapboxMobileEvents/CLLocationManager+MMEMobileEvents.m"; sourceTree = "<group>"; };
+		8F1753EE653342C68261F4EDDA314DE8 /* ImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = Sources/View/ImageView.swift; sourceTree = "<group>"; };
+		8F202EB33B732044265BF21E9E87F490 /* NSString+MMEVersions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MMEVersions.h"; path = "Sources/MapboxMobileEvents/NSString+MMEVersions.h"; sourceTree = "<group>"; };
+		9251FDC0E6A97420E144E2EF5EF4ACFC /* MMEEventsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEventsManager.h; path = Sources/MapboxMobileEvents/MMEEventsManager.h; sourceTree = "<group>"; };
+		93F62C8A997D8CE48433AFCC2B539117 /* ImagePickerController+ButtonActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImagePickerController+ButtonActions.swift"; path = "Sources/Controller/ImagePickerController+ButtonActions.swift"; sourceTree = "<group>"; };
+		944B2D00FC8AE1431FF2E4C7DFA4C72F /* UIKit+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIKit+MMEMobileEvents.m"; path = "Sources/MapboxMobileEvents/UIKit+MMEMobileEvents.m"; sourceTree = "<group>"; };
+		98725B1540C6D31ACABF318A861CEAA8 /* AssetStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetStore.swift; path = Sources/Model/AssetStore.swift; sourceTree = "<group>"; };
+		9A80A4A70D7D087557E6C87786B7C3C3 /* Pods-SportSpot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SportSpot-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9B19BAB966FECD9E5E8C051C568A2A /* Pods-SportSpot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SportSpot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0B25221DEDB5A74A890A79EDF4A80BE /* BSImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSImagePicker.release.xcconfig; sourceTree = "<group>"; };
+		A1CBA7DF6A8AB8DF0F67A9D2758FE209 /* BSImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		A59795A500A57E7B64E3771D5E2CE511 /* BSImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSImagePicker.modulemap; sourceTree = "<group>"; };
+		A919F977F68E52966F44E399004F1FAB /* MMEMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEMetrics.m; path = Sources/MapboxMobileEvents/MMEMetrics.m; sourceTree = "<group>"; };
+		A9F0D19DABB02D69CB4612B8D1105EF8 /* MMEEventLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEEventLogger.m; path = Sources/MapboxMobileEvents/MMEEventLogger.m; sourceTree = "<group>"; };
+		ADACA8A422F002B05EA89918B24DC194 /* MMETimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMETimerManager.m; path = Sources/MapboxMobileEvents/MMETimerManager.m; sourceTree = "<group>"; };
+		ADC6BFAECB20FEB23C7EB26CFF69B242 /* PreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = Sources/Scene/Preview/PreviewViewController.swift; sourceTree = "<group>"; };
+		AE426523C6294E4B71EFD08CE8EA1181 /* DropdownPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownPresentationController.swift; path = Sources/Presentation/Dropdown/DropdownPresentationController.swift; sourceTree = "<group>"; };
+		B2017977291E2E97BC3254B5B1305310 /* AssetCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetCollectionViewCell.swift; path = Sources/Scene/Assets/AssetCollectionViewCell.swift; sourceTree = "<group>"; };
+		B37ADA52D55C3732375799EFA0197912 /* AlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumCell.swift; path = Sources/Scene/Albums/AlbumCell.swift; sourceTree = "<group>"; };
+		B4EAB7A7E0A9297CA536D7233683FB1D /* MMEEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEvent.h; path = Sources/MapboxMobileEvents/MMEEvent.h; sourceTree = "<group>"; };
+		B53CA6762EE65B25B9246CEC37C393AD /* ImageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewLayout.swift; path = Sources/View/ImageViewLayout.swift; sourceTree = "<group>"; };
+		B6160578D2DB24978F34D031918405C8 /* MMELocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMELocationManager.h; path = Sources/MapboxMobileEvents/MMELocationManager.h; sourceTree = "<group>"; };
+		BF7BAA98B0134719F34C45567D7E39BA /* MMEUIApplicationWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEUIApplicationWrapper.h; path = Sources/MapboxMobileEvents/MMEUIApplicationWrapper.h; sourceTree = "<group>"; };
+		C44029FE82BF50D399AF870CEB165D9A /* Pods-SportSpot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SportSpot-dummy.m"; sourceTree = "<group>"; };
+		C75DF8E51075845BF0F78C0A2F5C995E /* MMENSURLSessionWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMENSURLSessionWrapper.h; path = Sources/MapboxMobileEvents/MMENSURLSessionWrapper.h; sourceTree = "<group>"; };
+		C7E52EE17AB10C4511342F834BB522A4 /* DropdownAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownAnimator.swift; path = Sources/Presentation/Dropdown/DropdownAnimator.swift; sourceTree = "<group>"; };
+		C81EC9A95C77DD53F91BAC921EA94781 /* CheckmarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckmarkView.swift; path = Sources/Scene/Assets/CheckmarkView.swift; sourceTree = "<group>"; };
+		CE74BFFC093B1A5B14571545BAF622C2 /* MMETimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMETimerManager.h; path = Sources/MapboxMobileEvents/MMETimerManager.h; sourceTree = "<group>"; };
+		CE9C8ED29D68B4322ECD76871791BC5C /* MMEDependencyManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDependencyManager.m; path = Sources/MapboxMobileEvents/MMEDependencyManager.m; sourceTree = "<group>"; };
+		D10C5644A6E9AF12496C8916EC5D43D6 /* VideoPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPreviewViewController.swift; path = Sources/Scene/Preview/VideoPreviewViewController.swift; sourceTree = "<group>"; };
+		D2330E5BCCDBDEE8C3A93A8727F3ED6D /* MMEMetricsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEMetricsManager.m; path = Sources/MapboxMobileEvents/MMEMetricsManager.m; sourceTree = "<group>"; };
+		D2DE68B638113ECB89D622496B579E8A /* MMEAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEAPIClient.h; path = Sources/MapboxMobileEvents/MMEAPIClient.h; sourceTree = "<group>"; };
+		D7256BBA2E36D9EFB949B5678A8E45A9 /* NSBundle+MMEMobileEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MMEMobileEvents.m"; path = "Sources/MapboxMobileEvents/NSBundle+MMEMobileEvents.m"; sourceTree = "<group>"; };
+		D7B53B0D31D392647983172CB158DB4A /* UIKit+MMEMobileEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+MMEMobileEvents.h"; path = "Sources/MapboxMobileEvents/UIKit+MMEMobileEvents.h"; sourceTree = "<group>"; };
+		D825C79B054547851E3DECE16A54B4F1 /* MMEMetricsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEMetricsManager.h; path = Sources/MapboxMobileEvents/MMEMetricsManager.h; sourceTree = "<group>"; };
+		D88AE75FF4275C9FB8112DE51997B829 /* CGSize+Scale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Scale.swift"; path = "Sources/View/CGSize+Scale.swift"; sourceTree = "<group>"; };
+		DB96E28E59084907DD380D4E9CFC6182 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCollectionViewCell.swift; path = Sources/Scene/Assets/VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DCB563A15627CE72F3E7FDA5E7BF8403 /* MMECertPin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMECertPin.h; path = Sources/MapboxMobileEvents/MMECertPin.h; sourceTree = "<group>"; };
+		DF8CCD9DB9C52EEDE5DE644021CCE499 /* MMEReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEReachability.h; path = Sources/MapboxMobileEvents/MMEReachability.h; sourceTree = "<group>"; };
+		E06C5D5E0B824D06982AA3DA0BE662D4 /* MMENSURLSessionWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMENSURLSessionWrapper.m; path = Sources/MapboxMobileEvents/MMENSURLSessionWrapper.m; sourceTree = "<group>"; };
+		E0F844791087E7B2B7C1C0A9F8EAB71F /* UIColor+BSImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+BSImagePicker.swift"; path = "Sources/Extension/UIColor+BSImagePicker.swift"; sourceTree = "<group>"; };
+		E2E61A4C2B8D45B9C37BF926855E2A22 /* MMETypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMETypes.h; path = Sources/MapboxMobileEvents/MMETypes.h; sourceTree = "<group>"; };
+		E50858E3F0C2AB9B2398F5E4F045F9A5 /* MMEEventsManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEEventsManager_Private.h; path = Sources/MapboxMobileEvents/MMEEventsManager_Private.h; sourceTree = "<group>"; };
+		E5DF0AAC8DF21EF4C3B528D2BE56D0C9 /* MMEDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEDate.h; path = Sources/MapboxMobileEvents/MMEDate.h; sourceTree = "<group>"; };
+		E629C0E37A3FE1D4C6CAB29597E73CC6 /* MMECategoryLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMECategoryLoader.m; path = Sources/MapboxMobileEvents/MMECategoryLoader.m; sourceTree = "<group>"; };
+		E763E1CE665E896BA66A7859A8A8CF79 /* Pods-SportSpot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SportSpot-Info.plist"; sourceTree = "<group>"; };
+		ECE19E54CB55DD26198AB73BD3AAF676 /* MapboxMobileEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapboxMobileEvents.release.xcconfig; sourceTree = "<group>"; };
+		EE275847487C45F284C86B3110CA86DA /* MapboxMobileEvents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapboxMobileEvents-Info.plist"; sourceTree = "<group>"; };
+		EF2D60C28571EB154866D99DFA4185E9 /* MMEMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMEMetrics.h; path = Sources/MapboxMobileEvents/MMEMetrics.h; sourceTree = "<group>"; };
+		EFA491601DBC4B3D628F3B91C8283309 /* MMEAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEAPIClient.m; path = Sources/MapboxMobileEvents/MMEAPIClient.m; sourceTree = "<group>"; };
+		F2BC6DF6D518679C8F78E851F70232F2 /* ZoomInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomInteractionController.swift; path = Sources/Presentation/Zoom/ZoomInteractionController.swift; sourceTree = "<group>"; };
+		F4B963FB739DDB9CFACF79B6AFCBE1FD /* NSProcessInfo+SystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProcessInfo+SystemInfo.m"; path = "Sources/MapboxMobileEvents/NSProcessInfo+SystemInfo.m"; sourceTree = "<group>"; };
+		F524B7F82362FC3C35037D2C8AED457D /* MapboxMobileEvents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapboxMobileEvents.modulemap; sourceTree = "<group>"; };
+		F6BE962EA7A76914AB46C400EB5F6C66 /* MMEConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEConstants.m; path = Sources/MapboxMobileEvents/MMEConstants.m; sourceTree = "<group>"; };
+		F89D373FCCF71D7A94B1F5EB0B138D6D /* NSUserDefaults+MMEConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+MMEConfiguration.h"; path = "Sources/MapboxMobileEvents/NSUserDefaults+MMEConfiguration.h"; sourceTree = "<group>"; };
+		FB9A223ECD77A46B077A915B0DB8256B /* Pods-SportSpot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SportSpot.modulemap"; sourceTree = "<group>"; };
+		FD6EB215DCEB581FFBF16023D1017806 /* MapboxMobileEvents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapboxMobileEvents-umbrella.h"; sourceTree = "<group>"; };
+		FE768F3BFE24DD471F9B4725733C45E9 /* MMEDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMEDate.m; path = Sources/MapboxMobileEvents/MMEDate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3128AA6B45A4F40AEF1176E07932CAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90488819FB3833697641A0127CF63279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC4BC4089A0AD20AB95717680D4F40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE35421D78A68CC4CCED09C161A90854 /* Foundation.framework in Frameworks */,
+				A4A6CF46A58B5D1D18B4CDEE3304C607 /* Photos.framework in Frameworks */,
+				D97712494CA3DD1B5A2A9186C03E4B44 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503CC9AC3B4A3583DAC5686F5F3A100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6C798EEA118BADB3CFDFAF232AE93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD78C73F15C9719369B2967870B1C6D3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		051666A4DDA1B0C2531B52BCF17FD4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F08AE4B81A4E4ECE65672A185E38F78 /* BSImagePicker.framework */,
+				7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */,
+				0D91250C30D81AA2A8D10B905A9C0DCA /* Pods_SportSpot.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39877482149FAB1F83C97A08684A3C21 /* Mapbox-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CD6ABF4CA54FDCB41B216675F4149452 /* Frameworks */,
+				6A47A6341FBEDA6CA49BC1B1C7F847F6 /* Support Files */,
+			);
+			name = "Mapbox-iOS-SDK";
+			path = "Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		3B73D2D9EB31F0070BF033A7A806B34C /* BSImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B37ADA52D55C3732375799EFA0197912 /* AlbumCell.swift */,
+				746F69AAA34EBC46535249931F3BFAE9 /* AlbumsTableViewDataSource.swift */,
+				5D98497D399538A84F58BD52B89F20A6 /* AlbumsViewController.swift */,
+				5D4AA422E4F2E8014D454061C3018E3F /* ArrowView.swift */,
+				B2017977291E2E97BC3254B5B1305310 /* AssetCollectionViewCell.swift */,
+				4A411F9276192ED3AF33BE5961B2F0C4 /* AssetsCollectionViewDataSource.swift */,
+				98725B1540C6D31ACABF318A861CEAA8 /* AssetStore.swift */,
+				84469EC67EC94F0D49184D4EF2553291 /* AssetsViewController.swift */,
+				3A3D5CE94AA0FDA05AFEE73EABA0024A /* CameraCollectionViewCell.swift */,
+				3B5F8237714A658848566005AF6820A0 /* CameraPreviewView.swift */,
+				200A20AFAF3AED67E60EA5DA0E17837E /* CameraViewController.swift */,
+				D88AE75FF4275C9FB8112DE51997B829 /* CGSize+Scale.swift */,
+				C81EC9A95C77DD53F91BAC921EA94781 /* CheckmarkView.swift */,
+				C7E52EE17AB10C4511342F834BB522A4 /* DropdownAnimator.swift */,
+				AE426523C6294E4B71EFD08CE8EA1181 /* DropdownPresentationController.swift */,
+				017CFA53326C3466460E053721C7F6CF /* DropdownTransitionDelegate.swift */,
+				1C6C522ADC6880AEF5110CBBA4698094 /* GradientView.swift */,
+				88E6BF2E2663BB0C8D14AB017D8AF712 /* ImagePickerController.swift */,
+				403BB7C8D157E276F5E85C179E3D26FD /* ImagePickerController+Albums.swift */,
+				1A86BE02DA7D7995AB0E66247A490391 /* ImagePickerController+Assets.swift */,
+				93F62C8A997D8CE48433AFCC2B539117 /* ImagePickerController+ButtonActions.swift */,
+				7C60E1A3AE7D1865EAC70EB578E8A413 /* ImagePickerController+Closure.swift */,
+				0528BB37B9F77A8FF9D4E729286DF350 /* ImagePickerController+PresentationDelegate.swift */,
+				7929E43A7E018A709BA327E61D7A44C5 /* ImagePickerControllerDelegate.swift */,
+				8F1753EE653342C68261F4EDDA314DE8 /* ImageView.swift */,
+				B53CA6762EE65B25B9246CEC37C393AD /* ImageViewLayout.swift */,
+				0C75B969052E31349DB61ECDFB082C2D /* LivePreviewViewController.swift */,
+				0561E0588C27A4FCF379AF59A7BE0329 /* NumberView.swift */,
+				2408444246470C00CCFB898FBE2981DE /* PlayerView.swift */,
+				3D5DFAF792A2CA35C0DD5FE48222FEA5 /* PreviewBuilder.swift */,
+				40D1C27B439D223A385BBF9FEA23E95B /* PreviewTitleBuilder.swift */,
+				ADC6BFAECB20FEB23C7EB26CFF69B242 /* PreviewViewController.swift */,
+				2BB2BC72039CA947D62ECF40D8033458 /* SelectionView.swift */,
+				2607567BF2B31002BC301119F83F34C5 /* Settings.swift */,
+				E0F844791087E7B2B7C1C0A9F8EAB71F /* UIColor+BSImagePicker.swift */,
+				DB96E28E59084907DD380D4E9CFC6182 /* VideoCollectionViewCell.swift */,
+				D10C5644A6E9AF12496C8916EC5D43D6 /* VideoPreviewViewController.swift */,
+				0C755101FD58B9387D821BA14C2DD294 /* ZoomAnimator.swift */,
+				F2BC6DF6D518679C8F78E851F70232F2 /* ZoomInteractionController.swift */,
+				3E0657B7D298CE87699762CB64169259 /* ZoomTransitionDelegate.swift */,
+				575DC298149474A7E705964E3B1FD965 /* Support Files */,
+			);
+			name = BSImagePicker;
+			path = BSImagePicker;
+			sourceTree = "<group>";
+		};
+		575DC298149474A7E705964E3B1FD965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A59795A500A57E7B64E3771D5E2CE511 /* BSImagePicker.modulemap */,
+				2887E3F464B5DE50C52C652249D93CB6 /* BSImagePicker-dummy.m */,
+				728D5701EF02088E6C41842173E5FE89 /* BSImagePicker-Info.plist */,
+				A1CBA7DF6A8AB8DF0F67A9D2758FE209 /* BSImagePicker-prefix.pch */,
+				51238DD322D089F1C6E892253E0AF4C6 /* BSImagePicker-umbrella.h */,
+				56C2ABD6D8CB1DB77A6D2AD2939467BD /* BSImagePicker.debug.xcconfig */,
+				A0B25221DEDB5A74A890A79EDF4A80BE /* BSImagePicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BSImagePicker";
+			sourceTree = "<group>";
+		};
+		640DF1CD9FC2A273BFF065CAF221BC70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B73D2D9EB31F0070BF033A7A806B34C /* BSImagePicker */,
+				39877482149FAB1F83C97A08684A3C21 /* Mapbox-iOS-SDK */,
+				B8BA30A2A410A3C4641BCB7B65767679 /* MapboxMobileEvents */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A47A6341FBEDA6CA49BC1B1C7F847F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				714540993CDAC9030EEAFFB7A001103F /* Mapbox-iOS-SDK.debug.xcconfig */,
+				454A68C615C97AD312F4B3D669BF115F /* Mapbox-iOS-SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mapbox-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		AAB4410553390D65E62EED70F7B3934E /* Pods-SportSpot */ = {
+			isa = PBXGroup;
+			children = (
+				FB9A223ECD77A46B077A915B0DB8256B /* Pods-SportSpot.modulemap */,
+				9D9B19BAB966FECD9E5E8C051C568A2A /* Pods-SportSpot-acknowledgements.markdown */,
+				88852CE8D96E2C48914628FAC473D2B7 /* Pods-SportSpot-acknowledgements.plist */,
+				C44029FE82BF50D399AF870CEB165D9A /* Pods-SportSpot-dummy.m */,
+				9A80A4A70D7D087557E6C87786B7C3C3 /* Pods-SportSpot-frameworks.sh */,
+				E763E1CE665E896BA66A7859A8A8CF79 /* Pods-SportSpot-Info.plist */,
+				296CCD324D895A277089A85831D34C36 /* Pods-SportSpot-umbrella.h */,
+				6D53B348431331DF6949B0DEDF65C146 /* Pods-SportSpot.debug.xcconfig */,
+				66249EC168EE66919630D45A8EB5C665 /* Pods-SportSpot.release.xcconfig */,
+			);
+			name = "Pods-SportSpot";
+			path = "Target Support Files/Pods-SportSpot";
+			sourceTree = "<group>";
+		};
+		AD6AA02806AF79484BC9612CB4A012B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F524B7F82362FC3C35037D2C8AED457D /* MapboxMobileEvents.modulemap */,
+				4DE0D2D8C7E83F5E52AACE4848C5051E /* MapboxMobileEvents-dummy.m */,
+				EE275847487C45F284C86B3110CA86DA /* MapboxMobileEvents-Info.plist */,
+				67D3CCD616E2BB7D7A30815E3FF305B2 /* MapboxMobileEvents-prefix.pch */,
+				FD6EB215DCEB581FFBF16023D1017806 /* MapboxMobileEvents-umbrella.h */,
+				82D5D0703FA94D5346D790389D76D5F1 /* MapboxMobileEvents.debug.xcconfig */,
+				ECE19E54CB55DD26198AB73BD3AAF676 /* MapboxMobileEvents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapboxMobileEvents";
+			sourceTree = "<group>";
+		};
+		B8BA30A2A410A3C4641BCB7B65767679 /* MapboxMobileEvents */ = {
+			isa = PBXGroup;
+			children = (
+				3D28FE93681B2A80BBB4B6862F7B5AB4 /* CLLocation+MMEMobileEvents.h */,
+				666B38ED3201D5F1F77450517E3103F2 /* CLLocation+MMEMobileEvents.m */,
+				0683BC00D37A882B3846375F09F2ACB8 /* CLLocationManager+MMEMobileEvents.h */,
+				88FDC62941186DE6D9A9A5E0A3B0258B /* CLLocationManager+MMEMobileEvents.m */,
+				2CDC039E161676CB821719A5E55BD297 /* MapboxMobileEvents.h */,
+				D2DE68B638113ECB89D622496B579E8A /* MMEAPIClient.h */,
+				EFA491601DBC4B3D628F3B91C8283309 /* MMEAPIClient.m */,
+				466B7A56F70BF73A6973D77A8F59CD94 /* MMEAPIClient_Private.h */,
+				73BBD9668C23FD07E437996B59ECF209 /* MMECategoryLoader.h */,
+				E629C0E37A3FE1D4C6CAB29597E73CC6 /* MMECategoryLoader.m */,
+				DCB563A15627CE72F3E7FDA5E7BF8403 /* MMECertPin.h */,
+				3745342A2B091204E68B7139A21622FE /* MMECertPin.m */,
+				826E754E5200D81F7DC13D0C0DA02333 /* MMECommonEventData.h */,
+				405206591E8C442B164BB7F9C9122A0F /* MMECommonEventData.m */,
+				62177FF531CC6BCD552EC49C26840CA1 /* MMEConstants.h */,
+				F6BE962EA7A76914AB46C400EB5F6C66 /* MMEConstants.m */,
+				E5DF0AAC8DF21EF4C3B528D2BE56D0C9 /* MMEDate.h */,
+				FE768F3BFE24DD471F9B4725733C45E9 /* MMEDate.m */,
+				01000A5185B44B55B634397773ED30E9 /* MMEDependencyManager.h */,
+				CE9C8ED29D68B4322ECD76871791BC5C /* MMEDependencyManager.m */,
+				0B838EEC0E786101FD209B0C681BE321 /* MMEDispatchManager.h */,
+				67B41706ED5CA645AB25CA91E355402E /* MMEDispatchManager.m */,
+				B4EAB7A7E0A9297CA536D7233683FB1D /* MMEEvent.h */,
+				0AB44FE15C726F9A0CAA6D9AA5A2FC05 /* MMEEvent.m */,
+				383510D87AAA926C0FF2B21400848A22 /* MMEEventLogger.h */,
+				A9F0D19DABB02D69CB4612B8D1105EF8 /* MMEEventLogger.m */,
+				9251FDC0E6A97420E144E2EF5EF4ACFC /* MMEEventsManager.h */,
+				6DC5C8F60B18ADC62604D19EB57B1766 /* MMEEventsManager.m */,
+				E50858E3F0C2AB9B2398F5E4F045F9A5 /* MMEEventsManager_Private.h */,
+				B6160578D2DB24978F34D031918405C8 /* MMELocationManager.h */,
+				87818B39A0CAAB56CD7BC2DFF1100FAA /* MMELocationManager.m */,
+				EF2D60C28571EB154866D99DFA4185E9 /* MMEMetrics.h */,
+				A919F977F68E52966F44E399004F1FAB /* MMEMetrics.m */,
+				D825C79B054547851E3DECE16A54B4F1 /* MMEMetricsManager.h */,
+				D2330E5BCCDBDEE8C3A93A8727F3ED6D /* MMEMetricsManager.m */,
+				C75DF8E51075845BF0F78C0A2F5C995E /* MMENSURLSessionWrapper.h */,
+				E06C5D5E0B824D06982AA3DA0BE662D4 /* MMENSURLSessionWrapper.m */,
+				DF8CCD9DB9C52EEDE5DE644021CCE499 /* MMEReachability.h */,
+				0A98C60304ACBE4B7AAE822E0652853E /* MMEReachability.m */,
+				CE74BFFC093B1A5B14571545BAF622C2 /* MMETimerManager.h */,
+				ADACA8A422F002B05EA89918B24DC194 /* MMETimerManager.m */,
+				E2E61A4C2B8D45B9C37BF926855E2A22 /* MMETypes.h */,
+				BF7BAA98B0134719F34C45567D7E39BA /* MMEUIApplicationWrapper.h */,
+				082D29F295DD9F7467FCE8BC563DF9FC /* MMEUIApplicationWrapper.m */,
+				864C4271F3943F29EF257593DC596B59 /* MMEUniqueIdentifier.h */,
+				0E6C71DC5B40393B634C721992B30B01 /* MMEUniqueIdentifier.m */,
+				33AEBEC332A0534E98911B7E8821D80A /* NSBundle+MMEMobileEvents.h */,
+				D7256BBA2E36D9EFB949B5678A8E45A9 /* NSBundle+MMEMobileEvents.m */,
+				2D7CCFA2737B9FC526BD8BC0F8304895 /* NSData+MMEGZIP.h */,
+				2BFF68374792C8719ADFBADDB8BB8D32 /* NSData+MMEGZIP.m */,
+				4335618739B27137AF2DA389F4E697C7 /* NSProcessInfo+SystemInfo.h */,
+				F4B963FB739DDB9CFACF79B6AFCBE1FD /* NSProcessInfo+SystemInfo.m */,
+				8F202EB33B732044265BF21E9E87F490 /* NSString+MMEVersions.h */,
+				1B71240B6DE21FA6545C9DA3FBF5DAA3 /* NSString+MMEVersions.m */,
+				F89D373FCCF71D7A94B1F5EB0B138D6D /* NSUserDefaults+MMEConfiguration.h */,
+				2A6DE42162BAFA70A4CD1C1A93D5BD85 /* NSUserDefaults+MMEConfiguration.m */,
+				75D3ED9E33865DB803E3813E423DF8D5 /* NSUserDefaults+MMEConfiguration_Private.h */,
+				D7B53B0D31D392647983172CB158DB4A /* UIKit+MMEMobileEvents.h */,
+				944B2D00FC8AE1431FF2E4C7DFA4C72F /* UIKit+MMEMobileEvents.m */,
+				AD6AA02806AF79484BC9612CB4A012B3 /* Support Files */,
+			);
+			name = MapboxMobileEvents;
+			path = MapboxMobileEvents;
+			sourceTree = "<group>";
+		};
+		BE00036576340D85E15970F6605535A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB4410553390D65E62EED70F7B3934E /* Pods-SportSpot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CD6ABF4CA54FDCB41B216675F4149452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D3A0B2E794429452B240BD5A80B9B5 /* Mapbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD78C73F15C9719369B2967870B1C6D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				36E8017CD3DD67036B82DE3355DDA10C /* Foundation.framework */,
+				40D3CDC39D98E22F2A543100660462A0 /* Photos.framework */,
+				06467B2726119E36A2570D3EA159D619 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				640DF1CD9FC2A273BFF065CAF221BC70 /* Pods */,
+				051666A4DDA1B0C2531B52BCF17FD4A7 /* Products */,
+				BE00036576340D85E15970F6605535A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24586A1D4CB850B7487D6411FA6A2358 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ECB463D6445BA94C11F11373E55957 /* CLLocation+MMEMobileEvents.h in Headers */,
+				824BFFE3DCC664A715B3EF680CB62DEB /* CLLocationManager+MMEMobileEvents.h in Headers */,
+				54C5C02623C6F32BACC2A5B1C76ECAE5 /* MapboxMobileEvents-umbrella.h in Headers */,
+				68272D20BB959B409B335794A3B88C6E /* MapboxMobileEvents.h in Headers */,
+				71024494B2EDC8440D426DED1994CEA2 /* MMEAPIClient.h in Headers */,
+				25185607AB9BC9D8D410C15D84535DEF /* MMEAPIClient_Private.h in Headers */,
+				AF8625912AD83A14F574F8656F49A1EA /* MMECategoryLoader.h in Headers */,
+				607DA9DA18D56387A0A5CA86DC7E0E2B /* MMECertPin.h in Headers */,
+				3227BE7F38EB7E6550374C687D73AAB7 /* MMECommonEventData.h in Headers */,
+				2816A18EC6DFED1EBC3CCF74AC387AC1 /* MMEConstants.h in Headers */,
+				E2AB248C49A29C277F308C63E4EF572B /* MMEDate.h in Headers */,
+				5553B77F479CDB7AECF6CCB92493BD88 /* MMEDependencyManager.h in Headers */,
+				1E39A3C884BC75EB1D3E381C2DEEFB2C /* MMEDispatchManager.h in Headers */,
+				0A714A13CFE6E89F7364E9FA3C154970 /* MMEEvent.h in Headers */,
+				09A2A6AB5EC2EA6DD1ED8503A89092A5 /* MMEEventLogger.h in Headers */,
+				EE51B6001BBCF099CB10134D2C281AF7 /* MMEEventsManager.h in Headers */,
+				A1521EC9C2864F6E63271718341EE1E6 /* MMEEventsManager_Private.h in Headers */,
+				2CC7F1C736576E4653CEE18E531F00E0 /* MMELocationManager.h in Headers */,
+				8802FF6B85453D21D7C1609EE47D1AC2 /* MMEMetrics.h in Headers */,
+				56DADE2DD43F974B6BC4D4CF17112A75 /* MMEMetricsManager.h in Headers */,
+				AA134AB205B3AAFB4D1C00671A482783 /* MMENSURLSessionWrapper.h in Headers */,
+				92F76D46731799F99DEC901DBB25768C /* MMEReachability.h in Headers */,
+				98C55AA981DC0B9D18AF3925D4F6D9BA /* MMETimerManager.h in Headers */,
+				BDA3204F090D4623441518A4DD4EDC8A /* MMETypes.h in Headers */,
+				EBA66521FF71CDF72172630B438321A0 /* MMEUIApplicationWrapper.h in Headers */,
+				C3FB50C73255277E12C69C82584A7041 /* MMEUniqueIdentifier.h in Headers */,
+				9B303918B163BE3E7CE0CD78C0249B45 /* NSBundle+MMEMobileEvents.h in Headers */,
+				409C7B89FAFB091379A7A81051702EAF /* NSData+MMEGZIP.h in Headers */,
+				40AD85A3BAC86304C7CC3691DF304F82 /* NSProcessInfo+SystemInfo.h in Headers */,
+				CC265EFFBE1C3D567EC05213BD9F369B /* NSString+MMEVersions.h in Headers */,
+				0F4CF5982D335F3E01210E865BC20D6F /* NSUserDefaults+MMEConfiguration.h in Headers */,
+				93BC9661E92496ECFF109EBD6811CDB6 /* NSUserDefaults+MMEConfiguration_Private.h in Headers */,
+				9BADDEA0DC42F6CF7260914800C08417 /* UIKit+MMEMobileEvents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F628A665B6F2EB2A714AA75AE00FE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB564E41DC876F6874B03B95FF0F9605 /* BSImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99AB5DC59AF10DAA4567231277CD3C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE8F724FC1C2414695FABAC5BF4B711 /* Pods-SportSpot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		377E69F20375EB612410D6BD87B4AF98 /* BSImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81971B8504CA0728F1152CCB85B7648B /* Build configuration list for PBXNativeTarget "BSImagePicker" */;
+			buildPhases = (
+				92F628A665B6F2EB2A714AA75AE00FE6 /* Headers */,
+				6E555470F44EE54F8561D733FE1401D1 /* Sources */,
+				7DC4BC4089A0AD20AB95717680D4F40E /* Frameworks */,
+				901986DE9B1864088BB620DBB8A43094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSImagePicker;
+			productName = BSImagePicker;
+			productReference = 1F08AE4B81A4E4ECE65672A185E38F78 /* BSImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7C33CCAB7DA3E9589685E9120C01F87 /* Pods-SportSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8CAEBA28C12E9C52A386FDFCB8DA98 /* Build configuration list for PBXNativeTarget "Pods-SportSpot" */;
+			buildPhases = (
+				A99AB5DC59AF10DAA4567231277CD3C5 /* Headers */,
+				F295DC200A46306ECD2C1239672B87E7 /* Sources */,
+				3128AA6B45A4F40AEF1176E07932CAF5 /* Frameworks */,
+				B7B1D841EDB018E278BBF3E834574DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA92185B35DB5A4996DC0EE52AE091E /* PBXTargetDependency */,
+				44A0BF0CF1DB64A1E66DED51F41BB319 /* PBXTargetDependency */,
+				1933ACF0A5B9B47AD24FAF4059A3EBF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-SportSpot";
+			productName = "Pods-SportSpot";
+			productReference = 0D91250C30D81AA2A8D10B905A9C0DCA /* Pods_SportSpot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720954C57246B626AA4F72CC2E36023B /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */;
+			buildPhases = (
+				24586A1D4CB850B7487D6411FA6A2358 /* Headers */,
+				6F7EE01745ADC4A8378D84FC5ECB3F37 /* Sources */,
+				A503CC9AC3B4A3583DAC5686F5F3A100 /* Frameworks */,
+				2838B1BE84D9615CDC6A2A6E41C0397A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapboxMobileEvents;
+			productName = MapboxMobileEvents;
+			productReference = 7CDFA2DAE745FD57264494A16D3C14B6 /* MapboxMobileEvents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 051666A4DDA1B0C2531B52BCF17FD4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377E69F20375EB612410D6BD87B4AF98 /* BSImagePicker */,
+				6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */,
+				F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */,
+				D7C33CCAB7DA3E9589685E9120C01F87 /* Pods-SportSpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2838B1BE84D9615CDC6A2A6E41C0397A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		901986DE9B1864088BB620DBB8A43094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B1D841EDB018E278BBF3E834574DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E555470F44EE54F8561D733FE1401D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5092E967B4A2A23855D109A85F35709B /* AlbumCell.swift in Sources */,
+				EA1A60684ABAF557379F2F9A09F05125 /* AlbumsTableViewDataSource.swift in Sources */,
+				7DCF3B99BDB96C0E202324D6A6D5AAFC /* AlbumsViewController.swift in Sources */,
+				FBA11690499ECCDFA36914DB2647071F /* ArrowView.swift in Sources */,
+				06E78BA520129E4E0B1331C61E91646F /* AssetCollectionViewCell.swift in Sources */,
+				5268418A803F4C80A7F5080177E485D0 /* AssetsCollectionViewDataSource.swift in Sources */,
+				8C78F5D2FF6F8BC35389F3344E6F3243 /* AssetStore.swift in Sources */,
+				DFF29E6AE791A8D1AEFF043994CBE7DB /* AssetsViewController.swift in Sources */,
+				DA11E0DA5335A65F9FBD7EB6ABC25372 /* BSImagePicker-dummy.m in Sources */,
+				636867B914DA9E6D1DAE6D9C81ED53ED /* CameraCollectionViewCell.swift in Sources */,
+				3C43CF415589F091A5E13493E3B5495E /* CameraPreviewView.swift in Sources */,
+				4DD50AB8757B9F726213492DEFD682A4 /* CameraViewController.swift in Sources */,
+				460020C3B8096313EB3FC045289B22A2 /* CGSize+Scale.swift in Sources */,
+				BD809D43150CFC6AF5B9B70582EF0A47 /* CheckmarkView.swift in Sources */,
+				0389C8DF445CE1EF43AC22E36DFD27B5 /* DropdownAnimator.swift in Sources */,
+				ED758DF878EC03369DE01C3FBA86B8BB /* DropdownPresentationController.swift in Sources */,
+				E800F651E3B306D888200FAE2C809A46 /* DropdownTransitionDelegate.swift in Sources */,
+				8B1ED7D8A9DEF59D198C5B71EC3219C1 /* GradientView.swift in Sources */,
+				6CCBB1777BAC849C02DFCA4CE250E80C /* ImagePickerController+Albums.swift in Sources */,
+				70DB55EB98008B4D4D2D04E8F4828549 /* ImagePickerController+Assets.swift in Sources */,
+				9193DF13DF0239B173D4425A1DED8F2D /* ImagePickerController+ButtonActions.swift in Sources */,
+				ED95E1911EB92FB818D6632B7C708602 /* ImagePickerController+Closure.swift in Sources */,
+				6172CD0EBDBA2ADC93CC9CA88E053522 /* ImagePickerController+PresentationDelegate.swift in Sources */,
+				2395790DA1861CBF12D5D51D6AF432DF /* ImagePickerController.swift in Sources */,
+				1DBEBF163FDA9923BB62CB818D323042 /* ImagePickerControllerDelegate.swift in Sources */,
+				25FA3F467C8A903E8CE6CBD3CDB19EAE /* ImageView.swift in Sources */,
+				18D3D7C06E6F19BE0D383AC5CF7E3974 /* ImageViewLayout.swift in Sources */,
+				1904B5C9607D3DD082A4B5EC35AFFAD7 /* LivePreviewViewController.swift in Sources */,
+				CFA5EA02486D0A5E35C507D71454DB9E /* NumberView.swift in Sources */,
+				5B3A4E3C48862DD44BD36B5FDBD3832F /* PlayerView.swift in Sources */,
+				947212F1D3B03126BA1848AC636D3574 /* PreviewBuilder.swift in Sources */,
+				1D11B93C2F853AC2104A4D459918E3D6 /* PreviewTitleBuilder.swift in Sources */,
+				0F350A553D83B0BD0240B15A808B761A /* PreviewViewController.swift in Sources */,
+				8DDB85ECFF0F59FB877A6E96CDB9FF98 /* SelectionView.swift in Sources */,
+				6B3543AEEB355276934219326E6CE1F6 /* Settings.swift in Sources */,
+				CDA13484464682D647A49AADC50E86E1 /* UIColor+BSImagePicker.swift in Sources */,
+				39E5C6E05823AF6BCBC68A06E3EEA630 /* VideoCollectionViewCell.swift in Sources */,
+				F814B20EDD9B1C017993ABB11B2EF263 /* VideoPreviewViewController.swift in Sources */,
+				7893272E6071BD400465339194A909AC /* ZoomAnimator.swift in Sources */,
+				A2749C1E69599848C1E0A08CAFEF9919 /* ZoomInteractionController.swift in Sources */,
+				A5B682D658081E190CDC9774CDA5E040 /* ZoomTransitionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F7EE01745ADC4A8378D84FC5ECB3F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CD98A0330C47CDE33835B8834F4610 /* CLLocation+MMEMobileEvents.m in Sources */,
+				6B0C16C0A66A8A47FC2B416BF88FB8CC /* CLLocationManager+MMEMobileEvents.m in Sources */,
+				0DE6E979A538721A8150B6053880086A /* MapboxMobileEvents-dummy.m in Sources */,
+				3DA0D431798F66969EA4F5757BAC3E62 /* MMEAPIClient.m in Sources */,
+				AB7B444D7B843BAD7E6DA3B88E4E0623 /* MMECategoryLoader.m in Sources */,
+				E43D5F92748DB402806932A6EB2ECAA2 /* MMECertPin.m in Sources */,
+				461EC74BFED1D94AEB1D9B433FE6ED7D /* MMECommonEventData.m in Sources */,
+				7F8740F974D86C8E141C31ED32C4ED81 /* MMEConstants.m in Sources */,
+				9606CBF56A8102A1173DAD2256E511F2 /* MMEDate.m in Sources */,
+				18811357EAEB0D08EED912F651E5D1C1 /* MMEDependencyManager.m in Sources */,
+				26E8BC586271530D1DB5927CFC4D1105 /* MMEDispatchManager.m in Sources */,
+				3B35101E468A9919AE0D2E716E099DA6 /* MMEEvent.m in Sources */,
+				74B964B913A103C8C78ABE037871712D /* MMEEventLogger.m in Sources */,
+				BA93EFCB1F33342EBD25C65AB8D262E6 /* MMEEventsManager.m in Sources */,
+				84E3B556AB38DF72D36CBB5980BA6E4D /* MMELocationManager.m in Sources */,
+				69A70D8A51FE5366AAAE02B1A1F69E65 /* MMEMetrics.m in Sources */,
+				DD68C19EC85FEA0835000C76215F489F /* MMEMetricsManager.m in Sources */,
+				D55C745515083951A9EE7B7A639E8FD4 /* MMENSURLSessionWrapper.m in Sources */,
+				8B0C2688B0745C6E63735D486C948F96 /* MMEReachability.m in Sources */,
+				715E01B2A1F51D468DD1B11F431ACD52 /* MMETimerManager.m in Sources */,
+				2D60DC94AFF25B195FF9E815702BF0E8 /* MMEUIApplicationWrapper.m in Sources */,
+				3E7424D09D520A085D03AE1EF25CA97F /* MMEUniqueIdentifier.m in Sources */,
+				352485EF2E292FB7746DDEA56A2F465C /* NSBundle+MMEMobileEvents.m in Sources */,
+				E3B3AA427D67CDAA18524D6256C9B504 /* NSData+MMEGZIP.m in Sources */,
+				25547179F1ED9056A8CDB3CD5BCEFFAE /* NSProcessInfo+SystemInfo.m in Sources */,
+				5CA0EFD4CF1ED5DDD6EE4E1264FA72BB /* NSString+MMEVersions.m in Sources */,
+				0FE87ABF12AA3985C8CF8F6D10CB1670 /* NSUserDefaults+MMEConfiguration.m in Sources */,
+				D0EFB59094E3C703BE110D37D55D2A73 /* UIKit+MMEMobileEvents.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F295DC200A46306ECD2C1239672B87E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439AF6494D9C76F3CEAC3C0E2AD62D84 /* Pods-SportSpot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1933ACF0A5B9B47AD24FAF4059A3EBF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxMobileEvents;
+			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
+			targetProxy = 76B66C88AA3129275BBBA1FDE1EE6E78 /* PBXContainerItemProxy */;
+		};
+		44A0BF0CF1DB64A1E66DED51F41BB319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mapbox-iOS-SDK";
+			target = 6746AB6F4D992402B59D1651512EA19E /* Mapbox-iOS-SDK */;
+			targetProxy = 4916CEB4FEAF5A919E8C86DF19BC194E /* PBXContainerItemProxy */;
+		};
+		8123EE7829309D3139516A03A74641D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapboxMobileEvents;
+			target = F20E041B920E9DD7BA087321915E730F /* MapboxMobileEvents */;
+			targetProxy = AB38CF05C109F9247AB2166D36C71EC0 /* PBXContainerItemProxy */;
+		};
+		FDA92185B35DB5A4996DC0EE52AE091E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BSImagePicker;
+			target = 377E69F20375EB612410D6BD87B4AF98 /* BSImagePicker */;
+			targetProxy = 3277C1D97AC3B9FF36133120A560D06D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		18825240008721594AF24DC9E2BF64AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D5D0703FA94D5346D790389D76D5F1 /* MapboxMobileEvents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
+				PRODUCT_MODULE_NAME = MapboxMobileEvents;
+				PRODUCT_NAME = MapboxMobileEvents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7004287D75921BEF6445AC9F427EA9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454A68C615C97AD312F4B3D669BF115F /* Mapbox-iOS-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9149E465229ACA73FDB48B536C9B929F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66249EC168EE66919630D45A8EB5C665 /* Pods-SportSpot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SportSpot/Pods-SportSpot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SportSpot/Pods-SportSpot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD52A8267D15FBBDEA3BAA13F8B51D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B25221DEDB5A74A890A79EDF4A80BE /* BSImagePicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSImagePicker/BSImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/BSImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BSImagePicker/BSImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = BSImagePicker;
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3C07D918A0A0068A4C2958E7CECD6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C2ABD6D8CB1DB77A6D2AD2939467BD /* BSImagePicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSImagePicker/BSImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSImagePicker/BSImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BSImagePicker/BSImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = BSImagePicker;
+				PRODUCT_NAME = BSImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDC9A0103F2908A92243C0104198E9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE19E54CB55DD26198AB73BD3AAF676 /* MapboxMobileEvents.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MapboxMobileEvents/MapboxMobileEvents.modulemap";
+				PRODUCT_MODULE_NAME = MapboxMobileEvents;
+				PRODUCT_NAME = MapboxMobileEvents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDD6BF1E506433F15EB76B66052891E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714540993CDAC9030EEAFFB7A001103F /* Mapbox-iOS-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7CC87E7C62767D97ED754D13909DD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D53B348431331DF6949B0DEDF65C146 /* Pods-SportSpot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SportSpot/Pods-SportSpot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SportSpot/Pods-SportSpot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720954C57246B626AA4F72CC2E36023B /* Build configuration list for PBXNativeTarget "MapboxMobileEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18825240008721594AF24DC9E2BF64AD /* Debug */,
+				DDC9A0103F2908A92243C0104198E9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81971B8504CA0728F1152CCB85B7648B /* Build configuration list for PBXNativeTarget "BSImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C07D918A0A0068A4C2958E7CECD6ED /* Debug */,
+				BD52A8267D15FBBDEA3BAA13F8B51D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA65CBFA2A2732AAB24EDD2834480AB8 /* Build configuration list for PBXAggregateTarget "Mapbox-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD6BF1E506433F15EB76B66052891E7 /* Debug */,
+				7004287D75921BEF6445AC9F427EA9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8CAEBA28C12E9C52A386FDFCB8DA98 /* Build configuration list for PBXNativeTarget "Pods-SportSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7CC87E7C62767D97ED754D13909DD18 /* Debug */,
+				9149E465229ACA73FDB48B536C9B929F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

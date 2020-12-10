@@ -1,0 +1,24 @@
+PODS:
+  - BSImagePicker (3.3.1)
+  - Mapbox-iOS-SDK (6.3.0):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.5)
+
+DEPENDENCIES:
+  - BSImagePicker (~> 3.2)
+  - Mapbox-iOS-SDK (~> 6.3.0)
+
+SPEC REPOS:
+  trunk:
+    - BSImagePicker
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+
+SPEC CHECKSUMS:
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  Mapbox-iOS-SDK: 6a67397df2bcafe5d2851604192aa8de6f8d6c89
+  MapboxMobileEvents: 7f6fb7fb0360302f524d198d36ccec3a0beae523
+
+PODFILE CHECKSUM: dec2bd2bccb1a2b1aa0df96811bf6aec09f0db39
+
+COCOAPODS: 1.9.3

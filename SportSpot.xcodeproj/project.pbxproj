@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF132F702565227B006A3C3D /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF132F6F2565227B006A3C3D /* NavigationView.swift */; };
+		CF132F7525657078006A3C3D /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF132F7425657078006A3C3D /* EventView.swift */; };
+		CF132F7925657185006A3C3D /* HeaderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF132F7825657185006A3C3D /* HeaderImageView.swift */; };
+		CF132F7F25657574006A3C3D /* ButtonInfoIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF132F7E25657574006A3C3D /* ButtonInfoIcon.swift */; };
+		CF22F475256170B200660CBC /* PlaygroundKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22F474256170B200660CBC /* PlaygroundKing.swift */; };
+		CF320F2A25695BA20068D2E7 /* InputPickerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF320F2925695BA20068D2E7 /* InputPickerCard.swift */; };
+		CF398FA8256454290011E349 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF398FA7256454290011E349 /* UINavigationController.swift */; };
+		CF398FAB256458A30011E349 /* TestTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF398FAA256458A30011E349 /* TestTabView.swift */; };
+		CF5BAA43255ED93A0008C6E5 /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAA42255ED93A0008C6E5 /* PlaygroundView.swift */; };
+		CF5BAA48255F11510008C6E5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5BAA47255F11510008C6E5 /* MainTabView.swift */; };
+		CF5CE0D52561847D00C91DB7 /* SubmenuChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5CE0D42561847D00C91DB7 /* SubmenuChoice.swift */; };
+		CF5E478325640E17000A45C9 /* PlaygroundEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E478225640E17000A45C9 /* PlaygroundEventsView.swift */; };
+		CF5E478925640EBE000A45C9 /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E478825640EBE000A45C9 /* EventCard.swift */; };
+		CF5E478D25641256000A45C9 /* PlaygroundAtlethsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E478C25641256000A45C9 /* PlaygroundAtlethsView.swift */; };
+		CF5E47912564127E000A45C9 /* BigPlaygroundKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E47902564127E000A45C9 /* BigPlaygroundKing.swift */; };
+		CF5E4794256412D1000A45C9 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4793256412D1000A45C9 /* View.swift */; };
+		CF5E4797256413A4000A45C9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E4796256413A4000A45C9 /* CircleImage.swift */; };
+		CF5E479A25641A8C000A45C9 /* RandomPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E479925641A8C000A45C9 /* RandomPointsView.swift */; };
+		CF5E479F25642B9C000A45C9 /* FeedbacksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5E479E25642B9C000A45C9 /* FeedbacksListView.swift */; };
+		CF6A766725667E8300EF4B73 /* EventPropertyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A766625667E8300EF4B73 /* EventPropertyRow.swift */; };
+		CF6A766A2566830300EF4B73 /* EventDateIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A76692566830300EF4B73 /* EventDateIcon.swift */; };
+		CF6A766F2566D77200EF4B73 /* EventCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A766E2566D77200EF4B73 /* EventCreationView.swift */; };
+		CF6A76732566D89B00EF4B73 /* InputTextCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A76722566D89B00EF4B73 /* InputTextCard.swift */; };
+		CF6FD51025618DBF00F2A077 /* SubmenuViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FD50F25618DBF00F2A077 /* SubmenuViews.swift */; };
+		CF6FD51425618EA000F2A077 /* AboutPlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FD51325618EA000F2A077 /* AboutPlaygroundView.swift */; };
+		CF74187E2559D454002E58DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74187D2559D454002E58DA /* AppDelegate.swift */; };
+		CF7418802559D454002E58DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74187F2559D454002E58DA /* SceneDelegate.swift */; };
+		CF7418822559D454002E58DA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7418812559D454002E58DA /* MainView.swift */; };
+		CF7418852559D454002E58DA /* SportSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF7418832559D454002E58DA /* SportSpot.xcdatamodeld */; };
+		CF7418872559D456002E58DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7418862559D456002E58DA /* Assets.xcassets */; };
+		CF74188A2559D456002E58DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7418892559D456002E58DA /* Preview Assets.xcassets */; };
+		CF74188D2559D456002E58DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF74188B2559D456002E58DA /* LaunchScreen.storyboard */; };
+		CF7418A22559D57F002E58DA /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7418A12559D57F002E58DA /* MainScreenView.swift */; };
+		CF7418A52559DC1E002E58DA /* PopularPlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7418A42559DC1E002E58DA /* PopularPlaygroundView.swift */; };
+		CF76758225670DD200AC0657 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76758125670DD200AC0657 /* ToggleView.swift */; };
+		CF7675852567D15600AC0657 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7675842567D15600AC0657 /* GridView.swift */; };
+		CF7675882567D4EA00AC0657 /* TestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7675872567D4EA00AC0657 /* TestGridView.swift */; };
+		CF76758C2567D6CE00AC0657 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76758B2567D6CE00AC0657 /* Array.swift */; };
+		CF76758F2567D6F500AC0657 /* CardsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76758E2567D6F500AC0657 /* CardsModels.swift */; };
+		CF7675922567D72800AC0657 /* PropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7675912567D72800AC0657 /* PropertyCard.swift */; };
+		CF7675952567D74E00AC0657 /* SportTypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7675942567D74E00AC0657 /* SportTypeCard.swift */; };
+		CFAB4E402567EC2A00368EC9 /* CountPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB4E3F2567EC2A00368EC9 /* CountPicker.swift */; };
+		CFAC25A5255B1872002A10D9 /* OnlineAtlethRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC25A4255B1872002A10D9 /* OnlineAtlethRow.swift */; };
+		CFAD18BC256701DB0062573A /* MultiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAD18BB256701DB0062573A /* MultiTextField.swift */; };
+		CFB317A5257CB9EE0016CAFE /* FilterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB317A4257CB9EE0016CAFE /* FilterScreenView.swift */; };
+		CFB317A9257CC8910016CAFE /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB317A8257CC8910016CAFE /* CheckBoxView.swift */; };
+		CFB3E4D12562DB630008BF21 /* AtlethIconSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3E4D02562DB630008BF21 /* AtlethIconSmall.swift */; };
+		CFB3E4D42562DC100008BF21 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3E4D32562DC100008BF21 /* RatingView.swift */; };
+		CFB3E4DC2563128D0008BF21 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3E4DB2563128D0008BF21 /* FilterView.swift */; };
+		CFB3E4E1256313630008BF21 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3E4E0256313630008BF21 /* Color.swift */; };
+		CFB3E4E925631B640008BF21 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3E4E825631B640008BF21 /* FeedbackView.swift */; };
+		CFD33775255F1DEE00785666 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD33774255F1DEE00785666 /* MapView.swift */; };
+		CFD33779255F257B00785666 /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD33778255F257B00785666 /* MainMapView.swift */; };
+		CFD33781255FE53B00785666 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD33780255FE53B00785666 /* ButtonStyles.swift */; };
+		CFDCFC77256B0F330014A654 /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC76256B0F330014A654 /* PointModel.swift */; };
+		CFDCFC7A256B10280014A654 /* MapDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC79256B10280014A654 /* MapDrawer.swift */; };
+		CFDCFC81256BC4FF0014A654 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC80256BC4FF0014A654 /* SheetView.swift */; };
+		CFDCFC84256BFC890014A654 /* AppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC83256BFC890014A654 /* AppContext.swift */; };
+		CFDCFC87256C28340014A654 /* PointsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC86256C28340014A654 /* PointsViewModel.swift */; };
+		CFDCFC8B256C32680014A654 /* OldRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCFC8A256C32680014A654 /* OldRatingView.swift */; };
+		CFF5824925725BE100247338 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF5824825725BE100247338 /* SignUpView.swift */; };
+		CFF582512572700F00247338 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF582502572700F00247338 /* UIApplication.swift */; };
+		CFF600EC255B24340043DDB9 /* NewTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF600EB255B24340043DDB9 /* NewTextFiled.swift */; };
+		CFF600F1255B27A10043DDB9 /* CustomHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF600F0255B27A10043DDB9 /* CustomHostingController.swift */; };
+		F54740A64EA4CCCA5BF72594 /* Pods_SportSpot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91DA5D5DAEE3E060326F585 /* Pods_SportSpot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B91DA5D5DAEE3E060326F585 /* Pods_SportSpot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportSpot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6FA332F731C3AAAA58271F /* Pods-SportSpot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportSpot.debug.xcconfig"; path = "Target Support Files/Pods-SportSpot/Pods-SportSpot.debug.xcconfig"; sourceTree = "<group>"; };
+		CF132F6F2565227B006A3C3D /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		CF132F7425657078006A3C3D /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		CF132F7825657185006A3C3D /* HeaderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderImageView.swift; sourceTree = "<group>"; };
+		CF132F7E25657574006A3C3D /* ButtonInfoIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInfoIcon.swift; sourceTree = "<group>"; };
+		CF22F474256170B200660CBC /* PlaygroundKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundKing.swift; sourceTree = "<group>"; };
+		CF320F2925695BA20068D2E7 /* InputPickerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPickerCard.swift; sourceTree = "<group>"; };
+		CF398FA7256454290011E349 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		CF398FAA256458A30011E349 /* TestTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabView.swift; sourceTree = "<group>"; };
+		CF5BAA42255ED93A0008C6E5 /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
+		CF5BAA47255F11510008C6E5 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CF5CE0D42561847D00C91DB7 /* SubmenuChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmenuChoice.swift; sourceTree = "<group>"; };
+		CF5E478225640E17000A45C9 /* PlaygroundEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundEventsView.swift; sourceTree = "<group>"; };
+		CF5E478825640EBE000A45C9 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		CF5E478C25641256000A45C9 /* PlaygroundAtlethsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundAtlethsView.swift; sourceTree = "<group>"; };
+		CF5E47902564127E000A45C9 /* BigPlaygroundKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigPlaygroundKing.swift; sourceTree = "<group>"; };
+		CF5E4793256412D1000A45C9 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		CF5E4796256413A4000A45C9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CF5E479925641A8C000A45C9 /* RandomPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPointsView.swift; sourceTree = "<group>"; };
+		CF5E479E25642B9C000A45C9 /* FeedbacksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksListView.swift; sourceTree = "<group>"; };
+		CF6A766625667E8300EF4B73 /* EventPropertyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPropertyRow.swift; sourceTree = "<group>"; };
+		CF6A76692566830300EF4B73 /* EventDateIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDateIcon.swift; sourceTree = "<group>"; };
+		CF6A766E2566D77200EF4B73 /* EventCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreationView.swift; sourceTree = "<group>"; };
+		CF6A76722566D89B00EF4B73 /* InputTextCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextCard.swift; sourceTree = "<group>"; };
+		CF6FD50F25618DBF00F2A077 /* SubmenuViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmenuViews.swift; sourceTree = "<group>"; };
+		CF6FD51325618EA000F2A077 /* AboutPlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPlaygroundView.swift; sourceTree = "<group>"; };
+		CF74187A2559D454002E58DA /* SportSpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportSpot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF74187D2559D454002E58DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF74187F2559D454002E58DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF7418812559D454002E58DA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CF7418842559D454002E58DA /* SportSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportSpot.xcdatamodel; sourceTree = "<group>"; };
+		CF7418862559D456002E58DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7418892559D456002E58DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF74188C2559D456002E58DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF74188E2559D456002E58DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7418A12559D57F002E58DA /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		CF7418A42559DC1E002E58DA /* PopularPlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularPlaygroundView.swift; sourceTree = "<group>"; };
+		CF76758125670DD200AC0657 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		CF7675842567D15600AC0657 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		CF7675872567D4EA00AC0657 /* TestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGridView.swift; sourceTree = "<group>"; };
+		CF76758B2567D6CE00AC0657 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		CF76758E2567D6F500AC0657 /* CardsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModels.swift; sourceTree = "<group>"; };
+		CF7675912567D72800AC0657 /* PropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCard.swift; sourceTree = "<group>"; };
+		CF7675942567D74E00AC0657 /* SportTypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportTypeCard.swift; sourceTree = "<group>"; };
+		CFAB4E3F2567EC2A00368EC9 /* CountPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountPicker.swift; sourceTree = "<group>"; };
+		CFAC25A4255B1872002A10D9 /* OnlineAtlethRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineAtlethRow.swift; sourceTree = "<group>"; };
+		CFAD18BB256701DB0062573A /* MultiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTextField.swift; sourceTree = "<group>"; };
+		CFB317A4257CB9EE0016CAFE /* FilterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterScreenView.swift; sourceTree = "<group>"; };
+		CFB317A8257CC8910016CAFE /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		CFB3E4D02562DB630008BF21 /* AtlethIconSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlethIconSmall.swift; sourceTree = "<group>"; };
+		CFB3E4D32562DC100008BF21 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		CFB3E4DB2563128D0008BF21 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		CFB3E4E0256313630008BF21 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CFB3E4E825631B640008BF21 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		CFD33774255F1DEE00785666 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CFD33778255F257B00785666 /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		CFD33780255FE53B00785666 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		CFDCFC76256B0F330014A654 /* PointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		CFDCFC79256B10280014A654 /* MapDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDrawer.swift; sourceTree = "<group>"; };
+		CFDCFC80256BC4FF0014A654 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		CFDCFC83256BFC890014A654 /* AppContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContext.swift; sourceTree = "<group>"; };
+		CFDCFC86256C28340014A654 /* PointsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewModel.swift; sourceTree = "<group>"; };
+		CFDCFC8A256C32680014A654 /* OldRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldRatingView.swift; sourceTree = "<group>"; };
+		CFF5824825725BE100247338 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CFF582502572700F00247338 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CFF600EB255B24340043DDB9 /* NewTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTextFiled.swift; sourceTree = "<group>"; };
+		CFF600F0255B27A10043DDB9 /* CustomHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHostingController.swift; sourceTree = "<group>"; };
+		D09620B66B46FA1219FCA86F /* Pods-SportSpot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportSpot.release.xcconfig"; path = "Target Support Files/Pods-SportSpot/Pods-SportSpot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7418772559D454002E58DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54740A64EA4CCCA5BF72594 /* Pods_SportSpot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A01A203467F9D866ECC52B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE6FA332F731C3AAAA58271F /* Pods-SportSpot.debug.xcconfig */,
+				D09620B66B46FA1219FCA86F /* Pods-SportSpot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF132F6E25652268006A3C3D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CF132F6F2565227B006A3C3D /* NavigationView.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		CF132F732565705A006A3C3D /* EventView */ = {
+			isa = PBXGroup;
+			children = (
+				CF132F7425657078006A3C3D /* EventView.swift */,
+				CF6A766625667E8300EF4B73 /* EventPropertyRow.swift */,
+				CF6A76692566830300EF4B73 /* EventDateIcon.swift */,
+			);
+			path = EventView;
+			sourceTree = "<group>";
+		};
+		CF5BAA3F255ED8BC0008C6E5 /* MainScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF7418A12559D57F002E58DA /* MainScreenView.swift */,
+				CFF600EB255B24340043DDB9 /* NewTextFiled.swift */,
+				CF7418A42559DC1E002E58DA /* PopularPlaygroundView.swift */,
+			);
+			path = MainScreenViews;
+			sourceTree = "<group>";
+		};
+		CF5BAA41255ED8E00008C6E5 /* PlaygroundViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF5BAA42255ED93A0008C6E5 /* PlaygroundView.swift */,
+				CF22F474256170B200660CBC /* PlaygroundKing.swift */,
+				CF5E479D25642B75000A45C9 /* FeedbacksList */,
+				CFB3E4EB25631C4E0008BF21 /* Submenu */,
+				CFB3E4ED25631C5E0008BF21 /* AboutPlayground */,
+				CF5E478125640DF9000A45C9 /* Events */,
+				CF5E478B25641227000A45C9 /* Atleths */,
+			);
+			path = PlaygroundViews;
+			sourceTree = "<group>";
+		};
+		CF5BAA4A255F1B090008C6E5 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				CFD33778255F257B00785666 /* MainMapView.swift */,
+				CFD33774255F1DEE00785666 /* MapView.swift */,
+				CFDCFC79256B10280014A654 /* MapDrawer.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		CF5E478125640DF9000A45C9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E478225640E17000A45C9 /* PlaygroundEventsView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		CF5E478B25641227000A45C9 /* Atleths */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E478C25641256000A45C9 /* PlaygroundAtlethsView.swift */,
+				CF5E47902564127E000A45C9 /* BigPlaygroundKing.swift */,
+				CF5E479925641A8C000A45C9 /* RandomPointsView.swift */,
+			);
+			path = Atleths;
+			sourceTree = "<group>";
+		};
+		CF5E479D25642B75000A45C9 /* FeedbacksList */ = {
+			isa = PBXGroup;
+			children = (
+				CF5E479E25642B9C000A45C9 /* FeedbacksListView.swift */,
+			);
+			path = FeedbacksList;
+			sourceTree = "<group>";
+		};
+		CF6A766D2566D73C00EF4B73 /* EventCreationView */ = {
+			isa = PBXGroup;
+			children = (
+				CF6A766E2566D77200EF4B73 /* EventCreationView.swift */,
+				CF320F2925695BA20068D2E7 /* InputPickerCard.swift */,
+				CF6A76722566D89B00EF4B73 /* InputTextCard.swift */,
+			);
+			path = EventCreationView;
+			sourceTree = "<group>";
+		};
+		CF7418712559D454002E58DA = {
+			isa = PBXGroup;
+			children = (
+				CF74187C2559D454002E58DA /* SportSpot */,
+				CF74187B2559D454002E58DA /* Products */,
+				38A01A203467F9D866ECC52B /* Pods */,
+				FAA805BD1AAB85A43512D07C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF74187B2559D454002E58DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF74187A2559D454002E58DA /* SportSpot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF74187C2559D454002E58DA /* SportSpot */ = {
+			isa = PBXGroup;
+			children = (
+				CF7418952559D460002E58DA /* App */,
+				CF74189B2559D4B8002E58DA /* Views */,
+				CF74189D2559D4C7002E58DA /* ViewModels */,
+				CF74189E2559D4D9002E58DA /* Models */,
+				CFD3377F255FE52600785666 /* Styles */,
+				CF74189F2559D4EC002E58DA /* Help */,
+				CF7418972559D46F002E58DA /* Support Files */,
+				CFDCFC89256C32470014A654 /* ArchiveViews */,
+			);
+			path = SportSpot;
+			sourceTree = "<group>";
+		};
+		CF7418882559D456002E58DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF7418892559D456002E58DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF7418952559D460002E58DA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CF74187D2559D454002E58DA /* AppDelegate.swift */,
+				CF74187F2559D454002E58DA /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CF7418972559D46F002E58DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7418862559D456002E58DA /* Assets.xcassets */,
+				CF74188B2559D456002E58DA /* LaunchScreen.storyboard */,
+				CF74188E2559D456002E58DA /* Info.plist */,
+				CF7418832559D454002E58DA /* SportSpot.xcdatamodeld */,
+				CF7418882559D456002E58DA /* Preview Content */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		CF74189B2559D4B8002E58DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF7418812559D454002E58DA /* MainView.swift */,
+				CF5BAA3F255ED8BC0008C6E5 /* MainScreenViews */,
+				CF5BAA4A255F1B090008C6E5 /* MapView */,
+				CF5BAA41255ED8E00008C6E5 /* PlaygroundViews */,
+				CFB3E4D9256312300008BF21 /* CommonViews */,
+				CF132F732565705A006A3C3D /* EventView */,
+				CF6A766D2566D73C00EF4B73 /* EventCreationView */,
+				CFB317A3257CB9060016CAFE /* FilterScreenView */,
+				CFF5824825725BE100247338 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF74189D2559D4C7002E58DA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCFC83256BFC890014A654 /* AppContext.swift */,
+				CFDCFC86256C28340014A654 /* PointsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF74189E2559D4D9002E58DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF76758E2567D6F500AC0657 /* CardsModels.swift */,
+				CFDCFC76256B0F330014A654 /* PointModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF74189F2559D4EC002E58DA /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				CF132F6E25652268006A3C3D /* Modifiers */,
+				CFB3E4DF256313550008BF21 /* Extensions */,
+				CF5BAA47255F11510008C6E5 /* MainTabView.swift */,
+				CF398FAA256458A30011E349 /* TestTabView.swift */,
+				CFF600F0255B27A10043DDB9 /* CustomHostingController.swift */,
+				CF132F7E25657574006A3C3D /* ButtonInfoIcon.swift */,
+				CFAD18BB256701DB0062573A /* MultiTextField.swift */,
+				CF76758125670DD200AC0657 /* ToggleView.swift */,
+				CF7675842567D15600AC0657 /* GridView.swift */,
+				CF7675872567D4EA00AC0657 /* TestGridView.swift */,
+				CFAB4E3F2567EC2A00368EC9 /* CountPicker.swift */,
+				CFDCFC80256BC4FF0014A654 /* SheetView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		CFB317A3257CB9060016CAFE /* FilterScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				CFB317A4257CB9EE0016CAFE /* FilterScreenView.swift */,
+				CFB317A8257CC8910016CAFE /* CheckBoxView.swift */,
+			);
+			path = FilterScreenView;
+			sourceTree = "<group>";
+		};
+		CFB3E4D9256312300008BF21 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC25A4255B1872002A10D9 /* OnlineAtlethRow.swift */,
+				CFB3E4E825631B640008BF21 /* FeedbackView.swift */,
+				CFB3E4D02562DB630008BF21 /* AtlethIconSmall.swift */,
+				CFB3E4D32562DC100008BF21 /* RatingView.swift */,
+				CFB3E4DB2563128D0008BF21 /* FilterView.swift */,
+				CF5E478825640EBE000A45C9 /* EventCard.swift */,
+				CF5E4796256413A4000A45C9 /* CircleImage.swift */,
+				CF132F7825657185006A3C3D /* HeaderImageView.swift */,
+				CF7675912567D72800AC0657 /* PropertyCard.swift */,
+				CF7675942567D74E00AC0657 /* SportTypeCard.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		CFB3E4DF256313550008BF21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3E4E0256313630008BF21 /* Color.swift */,
+				CF5E4793256412D1000A45C9 /* View.swift */,
+				CF398FA7256454290011E349 /* UINavigationController.swift */,
+				CF76758B2567D6CE00AC0657 /* Array.swift */,
+				CFF582502572700F00247338 /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFB3E4EB25631C4E0008BF21 /* Submenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CE0D42561847D00C91DB7 /* SubmenuChoice.swift */,
+				CF6FD50F25618DBF00F2A077 /* SubmenuViews.swift */,
+			);
+			path = Submenu;
+			sourceTree = "<group>";
+		};
+		CFB3E4ED25631C5E0008BF21 /* AboutPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				CF6FD51325618EA000F2A077 /* AboutPlaygroundView.swift */,
+			);
+			path = AboutPlayground;
+			sourceTree = "<group>";
+		};
+		CFD3377F255FE52600785666 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				CFD33780255FE53B00785666 /* ButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		CFDCFC89256C32470014A654 /* ArchiveViews */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCFC8A256C32680014A654 /* OldRatingView.swift */,
+			);
+			path = ArchiveViews;
+			sourceTree = "<group>";
+		};
+		FAA805BD1AAB85A43512D07C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91DA5D5DAEE3E060326F585 /* Pods_SportSpot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7418792559D454002E58DA /* SportSpot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7418912559D456002E58DA /* Build configuration list for PBXNativeTarget "SportSpot" */;
+			buildPhases = (
+				3468606D2E977346C7DB0B4C /* [CP] Check Pods Manifest.lock */,
+				CF7418762559D454002E58DA /* Sources */,
+				CF7418772559D454002E58DA /* Frameworks */,
+				CF7418782559D454002E58DA /* Resources */,
+				A3CFFB3F9CE52900F0EFD219 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportSpot;
+			productName = SportSpot;
+			productReference = CF74187A2559D454002E58DA /* SportSpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7418722559D454002E58DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CF7418792559D454002E58DA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CF7418752559D454002E58DA /* Build configuration list for PBXProject "SportSpot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7418712559D454002E58DA;
+			productRefGroup = CF74187B2559D454002E58DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7418792559D454002E58DA /* SportSpot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7418782559D454002E58DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF74188D2559D456002E58DA /* LaunchScreen.storyboard in Resources */,
+				CF74188A2559D456002E58DA /* Preview Assets.xcassets in Resources */,
+				CF7418872559D456002E58DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3468606D2E977346C7DB0B4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SportSpot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CFFB3F9CE52900F0EFD219 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportSpot/Pods-SportSpot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SportSpot/Pods-SportSpot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportSpot/Pods-SportSpot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7418762559D454002E58DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6A76732566D89B00EF4B73 /* InputTextCard.swift in Sources */,
+				CFF600F1255B27A10043DDB9 /* CustomHostingController.swift in Sources */,
+				CF5BAA43255ED93A0008C6E5 /* PlaygroundView.swift in Sources */,
+				CF5E4794256412D1000A45C9 /* View.swift in Sources */,
+				CF6A766F2566D77200EF4B73 /* EventCreationView.swift in Sources */,
+				CF6FD51425618EA000F2A077 /* AboutPlaygroundView.swift in Sources */,
+				CF7675882567D4EA00AC0657 /* TestGridView.swift in Sources */,
+				CF5E478D25641256000A45C9 /* PlaygroundAtlethsView.swift in Sources */,
+				CFF600EC255B24340043DDB9 /* NewTextFiled.swift in Sources */,
+				CFAB4E402567EC2A00368EC9 /* CountPicker.swift in Sources */,
+				CFB3E4DC2563128D0008BF21 /* FilterView.swift in Sources */,
+				CFB3E4D12562DB630008BF21 /* AtlethIconSmall.swift in Sources */,
+				CF7418852559D454002E58DA /* SportSpot.xcdatamodeld in Sources */,
+				CFDCFC7A256B10280014A654 /* MapDrawer.swift in Sources */,
+				CF7675922567D72800AC0657 /* PropertyCard.swift in Sources */,
+				CF6A766725667E8300EF4B73 /* EventPropertyRow.swift in Sources */,
+				CF132F7525657078006A3C3D /* EventView.swift in Sources */,
+				CFDCFC84256BFC890014A654 /* AppContext.swift in Sources */,
+				CF132F702565227B006A3C3D /* NavigationView.swift in Sources */,
+				CF5E479A25641A8C000A45C9 /* RandomPointsView.swift in Sources */,
+				CFB3E4D42562DC100008BF21 /* RatingView.swift in Sources */,
+				CFF5824925725BE100247338 /* SignUpView.swift in Sources */,
+				CF76758225670DD200AC0657 /* ToggleView.swift in Sources */,
+				CF320F2A25695BA20068D2E7 /* InputPickerCard.swift in Sources */,
+				CF7418A22559D57F002E58DA /* MainScreenView.swift in Sources */,
+				CF6FD51025618DBF00F2A077 /* SubmenuViews.swift in Sources */,
+				CF5E4797256413A4000A45C9 /* CircleImage.swift in Sources */,
+				CF398FAB256458A30011E349 /* TestTabView.swift in Sources */,
+				CFB317A9257CC8910016CAFE /* CheckBoxView.swift in Sources */,
+				CFDCFC81256BC4FF0014A654 /* SheetView.swift in Sources */,
+				CF398FA8256454290011E349 /* UINavigationController.swift in Sources */,
+				CFB3E4E925631B640008BF21 /* FeedbackView.swift in Sources */,
+				CF22F475256170B200660CBC /* PlaygroundKing.swift in Sources */,
+				CF5E479F25642B9C000A45C9 /* FeedbacksListView.swift in Sources */,
+				CF74187E2559D454002E58DA /* AppDelegate.swift in Sources */,
+				CF5E478325640E17000A45C9 /* PlaygroundEventsView.swift in Sources */,
+				CFAC25A5255B1872002A10D9 /* OnlineAtlethRow.swift in Sources */,
+				CF76758C2567D6CE00AC0657 /* Array.swift in Sources */,
+				CF5E478925640EBE000A45C9 /* EventCard.swift in Sources */,
+				CFD33779255F257B00785666 /* MainMapView.swift in Sources */,
+				CFDCFC87256C28340014A654 /* PointsViewModel.swift in Sources */,
+				CFB317A5257CB9EE0016CAFE /* FilterScreenView.swift in Sources */,
+				CF5CE0D52561847D00C91DB7 /* SubmenuChoice.swift in Sources */,
+				CF7418802559D454002E58DA /* SceneDelegate.swift in Sources */,
+				CF132F7F25657574006A3C3D /* ButtonInfoIcon.swift in Sources */,
+				CFB3E4E1256313630008BF21 /* Color.swift in Sources */,
+				CF6A766A2566830300EF4B73 /* EventDateIcon.swift in Sources */,
+				CFDCFC8B256C32680014A654 /* OldRatingView.swift in Sources */,
+				CFAD18BC256701DB0062573A /* MultiTextField.swift in Sources */,
+				CFF582512572700F00247338 /* UIApplication.swift in Sources */,
+				CFD33775255F1DEE00785666 /* MapView.swift in Sources */,
+				CF5E47912564127E000A45C9 /* BigPlaygroundKing.swift in Sources */,
+				CF7418822559D454002E58DA /* MainView.swift in Sources */,
+				CF7418A52559DC1E002E58DA /* PopularPlaygroundView.swift in Sources */,
+				CF132F7925657185006A3C3D /* HeaderImageView.swift in Sources */,
+				CFDCFC77256B0F330014A654 /* PointModel.swift in Sources */,
+				CFD33781255FE53B00785666 /* ButtonStyles.swift in Sources */,
+				CF7675952567D74E00AC0657 /* SportTypeCard.swift in Sources */,
+				CF76758F2567D6F500AC0657 /* CardsModels.swift in Sources */,
+				CF7675852567D15600AC0657 /* GridView.swift in Sources */,
+				CF5BAA48255F11510008C6E5 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF74188B2559D456002E58DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF74188C2559D456002E58DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF74188F2559D456002E58DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF7418902559D456002E58DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7418922559D456002E58DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6FA332F731C3AAAA58271F /* Pods-SportSpot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SportSpot/Support Files/Preview Content\"";
+				DEVELOPMENT_TEAM = ZTSRVDLXKY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SportSpot/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M-G.SportSpot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7418932559D456002E58DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D09620B66B46FA1219FCA86F /* Pods-SportSpot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SportSpot/Support Files/Preview Content\"";
+				DEVELOPMENT_TEAM = ZTSRVDLXKY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SportSpot/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "M-G.SportSpot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7418752559D454002E58DA /* Build configuration list for PBXProject "SportSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF74188F2559D456002E58DA /* Debug */,
+				CF7418902559D456002E58DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7418912559D456002E58DA /* Build configuration list for PBXNativeTarget "SportSpot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7418922559D456002E58DA /* Debug */,
+				CF7418932559D456002E58DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF7418832559D454002E58DA /* SportSpot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF7418842559D454002E58DA /* SportSpot.xcdatamodel */,
+			);
+			currentVersion = CF7418842559D454002E58DA /* SportSpot.xcdatamodel */;
+			path = SportSpot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF7418722559D454002E58DA /* Project object */;
+}
